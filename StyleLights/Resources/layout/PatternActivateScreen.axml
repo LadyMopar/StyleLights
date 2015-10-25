@@ -10,7 +10,7 @@
         android:minHeight="25px"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/linearLayout1">
+        android:id="@+id/linearLayoutPtrnActvt3">
         <Button
             android:text="Selection"
             android:id="@+id/SelectionButton"
@@ -28,7 +28,7 @@
             android:id="@+id/CommunityButton" />
         <Button
             android:text="Settings"
-            android:layout_width="wrap_content"
+            android:layout_width="60.7dp"
             android:layout_height="match_parent"
             android:id="@+id/SettingsButton" />
     </LinearLayout>
@@ -36,7 +36,7 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/linearLayout6"
+        android:id="@+id/linearLayoutPtrnActvt2"
         android:minWidth="25px"
         android:minHeight="25px"
         android:background="@android:color/holo_blue_dark"
@@ -55,7 +55,7 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/linearLayout7">
+        android:id="@+id/linearLayoutPtrnActvt1">
         <Button
             android:text="  Activate  "
             android:layout_width="wrap_content"

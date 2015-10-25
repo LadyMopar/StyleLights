@@ -25,9 +25,9 @@ namespace StyleLights
 			var widthInDp = ConvertPixelsToDp (metrics.WidthPixels);
 			var heightInDp = ConvertPixelsToDp (metrics.HeightPixels);
 		
-			LinearLayout layoutTest = FindViewById<LinearLayout> (Resource.Id.linearLayout7);
-			LinearLayout layoutTest2 = FindViewById<LinearLayout> (Resource.Id.linearLayout6);
-			LinearLayout layoutTest3 = FindViewById<LinearLayout> (Resource.Id.linearLayout5);
+			LinearLayout layoutTest = FindViewById<LinearLayout> (Resource.Id.linearLayoutPtrnActvt3);
+			LinearLayout layoutTest2 = FindViewById<LinearLayout> (Resource.Id.linearLayoutPtrnActvt1);
+			LinearLayout layoutTest3 = FindViewById<LinearLayout> (Resource.Id.linearLayoutPtrnActvt2);
 			layoutTest.SetMinimumWidth (widthInDp);
 			layoutTest.SetMinimumHeight (heightInDp * (5/6) );
 			layoutTest2.SetMinimumWidth (widthInDp);

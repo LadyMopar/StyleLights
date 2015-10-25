@@ -10,7 +10,7 @@ using Android.OS;
 
 namespace StyleLights
 {
-	[Activity (Label = "StyleLights", MainLauncher = true)]
+	[Activity (Label = "MainSelectionScreenActivity", MainLauncher = true)]
 	public class MainActivity : Activity
 	{
 		//int count = 1;
@@ -21,9 +21,6 @@ namespace StyleLights
 
 			// Set our view from the "main" layout resource	
 			SetContentView (Resource.Layout.MainSelectionScreen);
-
-       
-
 
 			var metrics = Resources.DisplayMetrics;
 			var widthInDp = ConvertPixelsToDp (metrics.WidthPixels);

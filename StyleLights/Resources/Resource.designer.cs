@@ -82,8 +82,8 @@ namespace StyleLights
 			// aapt resource value: 0x7f070029
 			public const int AccountSettingsButton = 2131165225;
 			
-			// aapt resource value: 0x7f07002c
-			public const int ActivateButton = 2131165228;
+			// aapt resource value: 0x7f07002f
+			public const int ActivateButton = 2131165231;
 			
 			// aapt resource value: 0x7f070024
 			public const int CommunityButton = 2131165220;
@@ -106,8 +106,8 @@ namespace StyleLights
 			// aapt resource value: 0x7f07002a
 			public const int NotificationSettingsButton = 2131165226;
 			
-			// aapt resource value: 0x7f07002e
-			public const int Preset1Button = 2131165230;
+			// aapt resource value: 0x7f070033
+			public const int Preset1Button = 2131165235;
 			
 			// aapt resource value: 0x7f070026
 			public const int PresetsButton = 2131165222;
@@ -199,6 +199,21 @@ namespace StyleLights
 			// aapt resource value: 0x7f07001c
 			public const int linearLayout9 = 2131165212;
 			
+			// aapt resource value: 0x7f070031
+			public const int linearLayoutCstmSlct1 = 2131165233;
+			
+			// aapt resource value: 0x7f070030
+			public const int linearLayoutCstmSlctn2 = 2131165232;
+			
+			// aapt resource value: 0x7f07002e
+			public const int linearLayoutPtrnActvt1 = 2131165230;
+			
+			// aapt resource value: 0x7f07002d
+			public const int linearLayoutPtrnActvt2 = 2131165229;
+			
+			// aapt resource value: 0x7f07002c
+			public const int linearLayoutPtrnActvt3 = 2131165228;
+			
 			// aapt resource value: 0x7f070011
 			public const int radioButton1 = 2131165201;
 			
@@ -208,8 +223,8 @@ namespace StyleLights
 			// aapt resource value: 0x7f07001a
 			public const int tabHost2 = 2131165210;
 			
-			// aapt resource value: 0x7f07002d
-			public const int tableRow1 = 2131165229;
+			// aapt resource value: 0x7f070032
+			public const int tableRow1 = 2131165234;
 			
 			// aapt resource value: 0x7f070003
 			public const int textView1 = 2131165187;
