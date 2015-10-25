@@ -59,3 +59,26 @@ C:\Users\richarel\Dropbox\CSSE 371 Project Folder\StyleLights\StyleLights\obj\De
 C:\Users\richarel\Dropbox\CSSE 371 Project Folder\StyleLights\StyleLights\obj\Debug\uploadflags.txt
 C:\Users\Administrator\Dropbox\CSSE 371 Project Folder\StyleLights\StyleLights\obj\Debug\res\layout\patternselectionscreencustom.xml
 C:\Users\Administrator\Dropbox\CSSE 371 Project Folder\StyleLights\StyleLights\obj\Debug\res\layout\patternselectionscreenpresets.xml
+C:\CSSE 371\StyleLights\StyleLights\bin\Debug\StyleLights.dll
+C:\CSSE 371\StyleLights\StyleLights\bin\Debug\StyleLights.pdb
+C:\CSSE 371\StyleLights\StyleLights\bin\Debug\com.companyname.stylelights.apk
+C:\CSSE 371\StyleLights\StyleLights\bin\Debug\com.companyname.stylelights-Signed.apk
+C:\CSSE 371\StyleLights\StyleLights\obj\Debug\StyleLights.csprojResolveAssemblyReference.cache
+C:\CSSE 371\StyleLights\StyleLights\obj\Debug\StyleLights.dll
+C:\CSSE 371\StyleLights\StyleLights\obj\Debug\StyleLights.pdb
+C:\CSSE 371\StyleLights\StyleLights\obj\Debug\android\bin\com.companyname.stylelights.apk
+C:\CSSE 371\StyleLights\StyleLights\obj\Debug\res\layout\mainselectionscreen.xml
+C:\CSSE 371\StyleLights\StyleLights\obj\Debug\res\layout\patternactivatescreen.xml
+C:\CSSE 371\StyleLights\StyleLights\obj\Debug\res\layout\mainsettingsscreen.xml
+C:\CSSE 371\StyleLights\StyleLights\obj\Debug\res\layout\devicesscreen.xml
+C:\CSSE 371\StyleLights\StyleLights\obj\Debug\res\layout\patternselectionscreencustom.xml
+C:\CSSE 371\StyleLights\StyleLights\obj\Debug\res\layout\patternselectionscreenpresets.xml
+C:\CSSE 371\StyleLights\StyleLights\obj\Debug\res\layout\main.xml
+C:\CSSE 371\StyleLights\StyleLights\obj\Debug\res\values\strings.xml
+C:\CSSE 371\StyleLights\StyleLights\obj\Debug\res\drawable-hdpi\icon.png
+C:\CSSE 371\StyleLights\StyleLights\obj\Debug\res\drawable-mdpi\icon.png
+C:\CSSE 371\StyleLights\StyleLights\obj\Debug\res\drawable-xhdpi\icon.png
+C:\CSSE 371\StyleLights\StyleLights\obj\Debug\res\drawable-xxhdpi\icon.png
+C:\CSSE 371\StyleLights\StyleLights\obj\Debug\res\drawable-xxxhdpi\icon.png
+C:\CSSE 371\StyleLights\StyleLights\obj\Debug\R.cs.flag
+C:\CSSE 371\StyleLights\StyleLights\obj\Debug\uploadflags.txt
