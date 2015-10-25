@@ -27,7 +27,7 @@ public final class R {
         public static final int CustomizeButton=0x7f070023;
         public static final int DevicesButton=0x7f070000;
         public static final int NotificationSettingsButton=0x7f07002a;
-        public static final int Preset1Button=0x7f070033;
+        public static final int Preset1Button=0x7f070034;
         public static final int PresetsButton=0x7f070026;
         public static final int ScanButton=0x7f070002;
         public static final int SelectionButton=0x7f070022;
@@ -60,15 +60,19 @@ public final class R {
         public static final int linearLayout9=0x7f07001c;
         public static final int linearLayoutCstmSlct1=0x7f070031;
         public static final int linearLayoutCstmSlctn2=0x7f070030;
+        public static final int linearLayoutPrst1=0x7f070036;
+        public static final int linearLayoutPrst2=0x7f070035;
         public static final int linearLayoutPtrnActvt1=0x7f07002e;
         public static final int linearLayoutPtrnActvt2=0x7f07002d;
         public static final int linearLayoutPtrnActvt3=0x7f07002c;
         public static final int radioButton1=0x7f070011;
         public static final int tabHost1=0x7f070008;
         public static final int tabHost2=0x7f07001a;
-        public static final int tableRow1=0x7f070032;
+        public static final int tableRow1=0x7f070033;
         public static final int textView1=0x7f070003;
         public static final int textView2=0x7f070005;
+        public static final int textViewCustom=0x7f070032;
+        public static final int textViewPreset=0x7f070037;
         public static final int toggleButton1=0x7f070006;
     }
     public static final class layout {

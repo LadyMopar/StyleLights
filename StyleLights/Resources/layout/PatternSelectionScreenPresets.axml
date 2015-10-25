@@ -7,7 +7,7 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/linearLayout1">
+        android:id="@+id/linearLayoutPrst2">
         <Button
             android:text="Selection"
             android:id="@+id/SelectionButton"
@@ -25,7 +25,7 @@
             android:id="@+id/CommunityButton" />
         <Button
             android:text="Settings"
-            android:layout_width="wrap_content"
+            android:layout_width="60.1dp"
             android:layout_height="match_parent"
             android:id="@+id/SettingsButton" />
     </LinearLayout>
@@ -33,15 +33,15 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/linearLayout6"
+        android:id="@+id/linearLayoutPrst1"
         android:minWidth="25px"
         android:minHeight="25px"
         android:background="@android:color/holo_blue_dark"
         android:fadingEdge="none">
         <TextView
-            android:text="Custom Patterns"
+            android:text=" Preset Patterns"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:id="@+id/textView1"
+            android:id="@+id/textViewPreset"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="center"
