@@ -1,0 +1,4 @@
+StyleLights.MainActivity, StyleLights;md56a4b26279f3076cbd7c96ed8f8981184.MainActivity
+StyleLights.MainActivity, StyleLights, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md56a4b26279f3076cbd7c96ed8f8981184.MainActivity
+StyleLights.MainActivity;md56a4b26279f3076cbd7c96ed8f8981184.MainActivity
+stylelights.MainActivity;md56a4b26279f3076cbd7c96ed8f8981184.MainActivity

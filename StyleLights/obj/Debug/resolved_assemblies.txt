@@ -1,0 +1,6 @@
+C:\Users\Administrator\Dropbox\CSSE 371 Project Folder\StyleLights\StyleLights\obj\Debug\assemblies\StyleLights.dll
+C:\Users\Administrator\Dropbox\CSSE 371 Project Folder\StyleLights\StyleLights\obj\Debug\assemblies\Mono.Android.dll
+C:\Users\Administrator\Dropbox\CSSE 371 Project Folder\StyleLights\StyleLights\obj\Debug\assemblies\mscorlib.dll
+C:\Users\Administrator\Dropbox\CSSE 371 Project Folder\StyleLights\StyleLights\obj\Debug\assemblies\System.Core.dll
+C:\Users\Administrator\Dropbox\CSSE 371 Project Folder\StyleLights\StyleLights\obj\Debug\assemblies\System.dll
+C:\Users\Administrator\Dropbox\CSSE 371 Project Folder\StyleLights\StyleLights\obj\Debug\assemblies\System.Xml.dll
