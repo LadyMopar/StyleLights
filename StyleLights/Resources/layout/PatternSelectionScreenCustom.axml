@@ -67,8 +67,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button1"
-        android:gravity="left"
-        android:background="@android:color/background_dark" />
+        android:gravity="left" />
     <Button
         android:text="Preset3"
         android:layout_width="382.2dp"
