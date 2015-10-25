@@ -14,7 +14,7 @@ namespace StyleLights
 	public class MainActivity : Activity
 	{
 		//int count = 1;
-
+		Button presetButton;
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
@@ -36,6 +36,15 @@ namespace StyleLights
 			layoutTest3.SetMinimumWidth (widthInDp);
 			layoutTest3.SetMinimumHeight (heightInDp * (1 / 10));
 
+			//Find our controls
+			presetButton = FindViewById<Button>(Resource.Id.PresetsButton);
+
+			//Wire up our controls
+			if (presetButton != null) {
+				presetButton.Click+= (sender, e) => {
+					StartActivity(typeof(PatternSelectionScreenPresetsActivity));
+				};
+			}
 
 		}
 		private int ConvertPixelsToDp(float pixels) {
