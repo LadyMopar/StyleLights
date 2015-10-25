@@ -48,12 +48,6 @@
             android:textColorHighlight="@android:color/darker_gray"
             android:textColor="@android:color/black" />
     </LinearLayout>
-    <LinearLayout
-        android:minWidth="25px"
-        android:minHeight="25px"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/tableRow1" />
     <Button
         android:text="Custom1"
         android:layout_width="match_parent"

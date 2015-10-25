@@ -22,19 +22,7 @@ namespace StyleLights
 			// Set our view from the "main" layout resource	
 			SetContentView (Resource.Layout.MainSelectionScreen);
 
-            //attempt to make a spinner
-            //Spinner spin = FindViewById<Spinner>(Resource.Id.spinner);
-
-            //spin.ItemSelected += new EventHandler<AdapterView.ItemSelectedEventArgs>(spin_ItemSelected);
-            //var adapter = ArrayAdapter.CreateFromResource(
-            //    this, Resource.Array.mock_device_data_array, Android.Resource.Layout.SimpleSpinnerItem);
-            //adapter.SetDropDownViewResource(Android.Resource.Layout.SimpleSpinnerDropDownItem);
-            //spin.Adapter = adapter;
-
-			//Button presets = FindViewById<Button> (Resource.Id.PresetsButton);
-			//presets.Click += delegate {
-					
-			//};
+       
 
 
 			var metrics = Resources.DisplayMetrics;
