@@ -1,1 +1,22 @@
-﻿<Properties StartupItem="StyleLights.csproj" />
+﻿<Properties StartupItem="StyleLights.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.27fef2d8" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PatternActivateScreenActivity.cs">
+    <Files>
+      <File FileName="MainSelectionScreenActivity.cs" Line="55" Column="11" />
+      <File FileName="d:\Documents\GitHub\StyleLights\StyleLights\PatternSelectionScreenPresetsActivity.cs" Line="36" Column="1" />
+      <File FileName="PatternActivateScreenActivity.cs" Line="40" Column="8" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>StyleLights.Resource.Id.linearLayoutPrst1</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.StyleLights AndroidDesignerPreferredDevice="Nexus 4" />
+</Properties>

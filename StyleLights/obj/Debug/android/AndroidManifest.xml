@@ -2,12 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.stylelights">
   <uses-sdk android:minSdkVersion="16" />
   <application android:label="StyleLights" android:name="mono.android.app.Application" android:debuggable="true">
-    <activity android:label="MainSelectionScreenActivity" android:name="md56a4b26279f3076cbd7c96ed8f8981184.MainActivity">
-      <intent-filter>
-        <action android:name="android.intent.action.MAIN" />
-        <category android:name="android.intent.category.LAUNCHER" />
-      </intent-filter>
-    </activity>
+    <activity android:label="MainSelectionScreenActivity" android:name="md56a4b26279f3076cbd7c96ed8f8981184.MainActivity" />
     <activity android:label="PatternActivateScreenActivity" android:name="md56a4b26279f3076cbd7c96ed8f8981184.PatternActivateScreenActivity" />
     <activity android:label="PatternSelectionScreenCustomActivity" android:name="md56a4b26279f3076cbd7c96ed8f8981184.PatternSelectionScreenCustomActivity" />
     <activity android:label="PatternSelectionScreenPresetsActivity" android:name="md56a4b26279f3076cbd7c96ed8f8981184.PatternSelectionScreenPresetsActivity" />
@@ -18,6 +13,12 @@
         <category android:name="mono.android.intent.category.SEPPUKU.com.companyname.stylelights" />
       </intent-filter>
     </receiver>
+    <activity android:label="MainSelectionScreenActivity" android:name="com.companyname.stylelights.TrialSplashScreen" android:theme="@style/Mono.Android.Theme.Splash" android:noHistory="true">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
   </application>
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />

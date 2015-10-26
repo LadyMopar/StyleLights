@@ -19,7 +19,7 @@ namespace StyleLights
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
-
+			SetContentView (Resource.Layout.PatternSelectionScreenCustom);
 			// Create your application here
 			var metrics = Resources.DisplayMetrics;
 			var widthInDp = ConvertPixelsToDp (metrics.WidthPixels);

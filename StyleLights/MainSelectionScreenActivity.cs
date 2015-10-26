@@ -15,10 +15,11 @@ namespace StyleLights
 	{
 		//int count = 1;
 		Button presetButton;
+		Button customButton;
+		Button newButton;
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
-
 			// Set our view from the "main" layout resource	
 			SetContentView (Resource.Layout.MainSelectionScreen);
 
@@ -38,11 +39,20 @@ namespace StyleLights
 
 			//Find our controls
 			presetButton = FindViewById<Button>(Resource.Id.PresetsButton);
+			customButton = FindViewById<Button> (Resource.Id.CustomButton);
+			newButton = FindViewById<Button> (Resource.Id.CreateNewButton);
 
 			//Wire up our controls
 			if (presetButton != null) {
 				presetButton.Click+= (sender, e) => {
-					StartActivity(typeof(PatternSelectionScreenPresetsActivity));
+					var activity= new Intent(this, typeof(PatternSelectionScreenPresetsActivity));
+					//activity.PutExtra("Pattern Name","Pattern1");
+					StartActivity(activity);
+				};
+			}
+			if (customButton != null) {
+				customButton.Click+= (sender, e) => {
+					StartActivity(typeof(PatternSelectionScreenCustomActivity));
 				};
 			}
 

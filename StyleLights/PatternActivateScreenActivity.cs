@@ -19,7 +19,7 @@ namespace StyleLights
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
-
+			SetContentView (Resource.Layout.PatternActivateScreen);
 			// Create your application here
 			var metrics = Resources.DisplayMetrics;
 			var widthInDp = ConvertPixelsToDp (metrics.WidthPixels);
@@ -34,7 +34,18 @@ namespace StyleLights
 			layoutTest2.SetMinimumHeight (heightInDp * (1 / 10));
 			layoutTest3.SetMinimumWidth (widthInDp);
 			layoutTest3.SetMinimumHeight (heightInDp * (1 / 10));
-		
+
+			//get name of pattern from intent
+			string patternName = Intent.GetStringExtra ("Pattern Name")?? "Pattern Name not found";
+			var nameStr = FindViewById<TextView> (Resource.Id.textView1);
+			nameStr.Text= patternName;
+			//Find our controls
+			var activateButton = FindViewById<Button>(Resource.Id.ActivateButton);
+
+			//Wire up controls
+			activateButton.Click+= (sender, e) => {
+				Toast.MakeText(this, "Pattern: "+patternName+" has been sent to the device", ToastLength.Long).Show();
+			};
 		}
 
 		private int ConvertPixelsToDp(float pixels) {
