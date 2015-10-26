@@ -49,19 +49,19 @@
             android:textColor="@android:color/black" />
     </LinearLayout>
     <Button
-        android:text="Custom1"
+        android:text="Preset1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button1"
         android:gravity="left" />
     <Button
-        android:text="Custom2"
+        android:text="Preset2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button1"
+        android:id="@+id/button2"
         android:gravity="left" />
     <Button
-        android:text="Custom3"
+        android:text="Preset3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button3"
