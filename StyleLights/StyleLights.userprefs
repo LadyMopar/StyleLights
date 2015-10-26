@@ -1,1 +1,12 @@
-﻿<Properties StartupItem="StyleLights.csproj" />
+﻿<Properties StartupItem="StyleLights.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus_5_API_23_x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MainSelectionScreenActivity.cs">
+    <Files>
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.StyleLights AndroidDesignerPreferredDevice="Nexus 4" />
+</Properties>
