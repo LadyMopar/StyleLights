@@ -73,30 +73,35 @@
                     p1:layout_width="match_parent"
                     p1:layout_height="37.8dp"
                     p1:id="@+id/region" />
-                <RadioButton
-                    p1:text="Chest"
+                <RadioGroup
+                    p1:id="@+id/regiongroup"
                     p1:layout_width="match_parent"
-                    p1:layout_height="51.8dp"
-                    p1:id="@+id/chest"
-                    p1:layout_marginTop="42.4dp" />
-                <RadioButton
-                    p1:text="Arms"
-                    p1:layout_width="match_parent"
-                    p1:layout_height="51.8dp"
-                    p1:id="@+id/arms"
-                    p1:layout_marginTop="16.3dp" />
-                <RadioButton
-                    p1:text="Back"
-                    p1:layout_width="match_parent"
-                    p1:layout_height="51.8dp"
-                    p1:id="@+id/back"
-                    p1:layout_marginTop="16.3dp" />
-                <RadioButton
-                    p1:text="Single LED"
-                    p1:layout_width="match_parent"
-                    p1:layout_height="51.8dp"
-                    p1:id="@+id/single"
-                    p1:layout_marginTop="16.3dp" />
+                    p1:layout_height="wrap_content">
+                    <RadioButton
+                        p1:text="Chest"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="51.8dp"
+                        p1:id="@+id/chest"
+                        p1:layout_marginTop="42.4dp" />
+                    <RadioButton
+                        p1:text="Arms"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="51.8dp"
+                        p1:id="@+id/arms"
+                        p1:layout_marginTop="16.3dp" />
+                    <RadioButton
+                        p1:text="Back"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="51.8dp"
+                        p1:id="@+id/back"
+                        p1:layout_marginTop="16.3dp" />
+                    <RadioButton
+                        p1:text="Single LED"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="51.8dp"
+                        p1:id="@+id/single"
+                        p1:layout_marginTop="16.3dp" />
+                </RadioGroup>
             </LinearLayout>
         </LinearLayout>
         <LinearLayout

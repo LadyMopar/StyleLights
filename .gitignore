@@ -23,3 +23,8 @@ StyleLights/obj/Debug/res/layout/patternactivatescreen.xml
 StyleLights/obj/Debug/resolved_assemblies.txt
 StyleLights/obj/Debug/strip.flag
 StyleLights/obj/Debug/uploadflags.txt
+StyleLights/obj/Debug/android/bin/classes.dex
+StyleLights/obj/Debug/android/bin/classes/md56a4b26279f3076cbd7c96ed8f8981184/PatternActivateScreenActivity.class
+StyleLights/obj/Debug/android/bin/classes/mono/android/app/Application$NotifyTimeZoneChanges.class
+*.class
+StyleLights/obj/Debug/android/bin/mono.android.jar

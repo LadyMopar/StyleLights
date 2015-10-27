@@ -76,59 +76,59 @@ namespace StyleLights
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f060043
-			public const int AccountSettingsButton = 2131099715;
-			
-			// aapt resource value: 0x7f060049
-			public const int ActivateButton = 2131099721;
-			
-			// aapt resource value: 0x7f06003e
-			public const int CommunityButton = 2131099710;
-			
-			// aapt resource value: 0x7f060045
-			public const int ContactButton = 2131099717;
-			
-			// aapt resource value: 0x7f060042
-			public const int CreateNewButton = 2131099714;
-			
-			// aapt resource value: 0x7f060041
-			public const int CustomButton = 2131099713;
-			
-			// aapt resource value: 0x7f06003d
-			public const int CustomizeButton = 2131099709;
-			
-			// aapt resource value: 0x7f060036
-			public const int DevicesButton = 2131099702;
-			
 			// aapt resource value: 0x7f060044
-			public const int NotificationSettingsButton = 2131099716;
+			public const int AccountSettingsButton = 2131099716;
 			
-			// aapt resource value: 0x7f06004e
-			public const int Preset1Button = 2131099726;
-			
-			// aapt resource value: 0x7f060040
-			public const int PresetsButton = 2131099712;
-			
-			// aapt resource value: 0x7f060037
-			public const int ScanButton = 2131099703;
-			
-			// aapt resource value: 0x7f06003c
-			public const int SelectionButton = 2131099708;
+			// aapt resource value: 0x7f06004a
+			public const int ActivateButton = 2131099722;
 			
 			// aapt resource value: 0x7f06003f
-			public const int SettingsButton = 2131099711;
+			public const int CommunityButton = 2131099711;
 			
-			// aapt resource value: 0x7f060024
-			public const int arms = 2131099684;
+			// aapt resource value: 0x7f060046
+			public const int ContactButton = 2131099718;
+			
+			// aapt resource value: 0x7f060043
+			public const int CreateNewButton = 2131099715;
+			
+			// aapt resource value: 0x7f060042
+			public const int CustomButton = 2131099714;
+			
+			// aapt resource value: 0x7f06003e
+			public const int CustomizeButton = 2131099710;
+			
+			// aapt resource value: 0x7f060037
+			public const int DevicesButton = 2131099703;
+			
+			// aapt resource value: 0x7f060045
+			public const int NotificationSettingsButton = 2131099717;
+			
+			// aapt resource value: 0x7f06004f
+			public const int Preset1Button = 2131099727;
+			
+			// aapt resource value: 0x7f060041
+			public const int PresetsButton = 2131099713;
+			
+			// aapt resource value: 0x7f060038
+			public const int ScanButton = 2131099704;
+			
+			// aapt resource value: 0x7f06003d
+			public const int SelectionButton = 2131099709;
+			
+			// aapt resource value: 0x7f060040
+			public const int SettingsButton = 2131099712;
 			
 			// aapt resource value: 0x7f060025
-			public const int back = 2131099685;
+			public const int arms = 2131099685;
 			
-			// aapt resource value: 0x7f06002a
-			public const int brightness = 2131099690;
+			// aapt resource value: 0x7f060026
+			public const int back = 2131099686;
 			
 			// aapt resource value: 0x7f06002b
-			public const int brightnessSlider = 2131099691;
+			public const int brightness = 2131099691;
+			
+			// aapt resource value: 0x7f06002c
+			public const int brightnessSlider = 2131099692;
 			
 			// aapt resource value: 0x7f060010
 			public const int button1 = 2131099664;
@@ -151,26 +151,26 @@ namespace StyleLights
 			// aapt resource value: 0x7f06001a
 			public const int button7 = 2131099674;
 			
-			// aapt resource value: 0x7f060023
-			public const int chest = 2131099683;
+			// aapt resource value: 0x7f060024
+			public const int chest = 2131099684;
 			
 			// aapt resource value: 0x7f06001d
 			public const int customize = 2131099677;
 			
-			// aapt resource value: 0x7f06002e
-			public const int duration = 2131099694;
+			// aapt resource value: 0x7f06002f
+			public const int duration = 2131099695;
 			
-			// aapt resource value: 0x7f060031
-			public const int editText3 = 2131099697;
+			// aapt resource value: 0x7f060032
+			public const int editText3 = 2131099698;
 			
-			// aapt resource value: 0x7f060034
-			public const int editText4 = 2131099700;
-			
-			// aapt resource value: 0x7f06002c
-			public const int effect = 2131099692;
+			// aapt resource value: 0x7f060035
+			public const int editText4 = 2131099701;
 			
 			// aapt resource value: 0x7f06002d
-			public const int effectSpinner = 2131099693;
+			public const int effect = 2131099693;
+			
+			// aapt resource value: 0x7f06002e
+			public const int effectSpinner = 2131099694;
 			
 			// aapt resource value: 0x7f06000d
 			public const int imageButton1 = 2131099661;
@@ -205,8 +205,8 @@ namespace StyleLights
 			// aapt resource value: 0x7f06000b
 			public const int linearLayout19 = 2131099659;
 			
-			// aapt resource value: 0x7f060038
-			public const int linearLayout2 = 2131099704;
+			// aapt resource value: 0x7f060039
+			public const int linearLayout2 = 2131099705;
 			
 			// aapt resource value: 0x7f060001
 			public const int linearLayout20 = 2131099649;
@@ -214,11 +214,11 @@ namespace StyleLights
 			// aapt resource value: 0x7f060012
 			public const int linearLayout21 = 2131099666;
 			
-			// aapt resource value: 0x7f06003a
-			public const int linearLayout3 = 2131099706;
-			
 			// aapt resource value: 0x7f06003b
-			public const int linearLayout5 = 2131099707;
+			public const int linearLayout3 = 2131099707;
+			
+			// aapt resource value: 0x7f06003c
+			public const int linearLayout5 = 2131099708;
 			
 			// aapt resource value: 0x7f060003
 			public const int linearLayout6 = 2131099651;
@@ -226,26 +226,26 @@ namespace StyleLights
 			// aapt resource value: 0x7f060004
 			public const int linearLayout7 = 2131099652;
 			
-			// aapt resource value: 0x7f06004b
-			public const int linearLayoutCstmSlct1 = 2131099723;
+			// aapt resource value: 0x7f06004c
+			public const int linearLayoutCstmSlct1 = 2131099724;
 			
-			// aapt resource value: 0x7f06004a
-			public const int linearLayoutCstmSlctn2 = 2131099722;
+			// aapt resource value: 0x7f06004b
+			public const int linearLayoutCstmSlctn2 = 2131099723;
+			
+			// aapt resource value: 0x7f060051
+			public const int linearLayoutPrst1 = 2131099729;
 			
 			// aapt resource value: 0x7f060050
-			public const int linearLayoutPrst1 = 2131099728;
+			public const int linearLayoutPrst2 = 2131099728;
 			
-			// aapt resource value: 0x7f06004f
-			public const int linearLayoutPrst2 = 2131099727;
+			// aapt resource value: 0x7f060049
+			public const int linearLayoutPtrnActvt1 = 2131099721;
 			
 			// aapt resource value: 0x7f060048
-			public const int linearLayoutPtrnActvt1 = 2131099720;
+			public const int linearLayoutPtrnActvt2 = 2131099720;
 			
 			// aapt resource value: 0x7f060047
-			public const int linearLayoutPtrnActvt2 = 2131099719;
-			
-			// aapt resource value: 0x7f060046
-			public const int linearLayoutPtrnActvt3 = 2131099718;
+			public const int linearLayoutPtrnActvt3 = 2131099719;
 			
 			// aapt resource value: 0x7f060009
 			public const int radioButton1 = 2131099657;
@@ -256,11 +256,14 @@ namespace StyleLights
 			// aapt resource value: 0x7f060022
 			public const int region = 2131099682;
 			
-			// aapt resource value: 0x7f060027
-			public const int reset = 2131099687;
+			// aapt resource value: 0x7f060023
+			public const int regiongroup = 2131099683;
 			
 			// aapt resource value: 0x7f060028
-			public const int rotate = 2131099688;
+			public const int reset = 2131099688;
+			
+			// aapt resource value: 0x7f060029
+			public const int rotate = 2131099689;
 			
 			// aapt resource value: 0x7f06001c
 			public const int select = 2131099676;
@@ -271,20 +274,20 @@ namespace StyleLights
 			// aapt resource value: 0x7f06001e
 			public const int share = 2131099678;
 			
-			// aapt resource value: 0x7f060029
-			public const int shirt = 2131099689;
+			// aapt resource value: 0x7f06002a
+			public const int shirt = 2131099690;
 			
-			// aapt resource value: 0x7f060026
-			public const int single = 2131099686;
+			// aapt resource value: 0x7f060027
+			public const int single = 2131099687;
 			
 			// aapt resource value: 0x7f060017
 			public const int spinner1 = 2131099671;
 			
-			// aapt resource value: 0x7f06002f
-			public const int spinner2 = 2131099695;
+			// aapt resource value: 0x7f060030
+			public const int spinner2 = 2131099696;
 			
-			// aapt resource value: 0x7f06004d
-			public const int tableRow1 = 2131099725;
+			// aapt resource value: 0x7f06004e
+			public const int tableRow1 = 2131099726;
 			
 			// aapt resource value: 0x7f060008
 			public const int textView1 = 2131099656;
@@ -298,26 +301,26 @@ namespace StyleLights
 			// aapt resource value: 0x7f060019
 			public const int textView4 = 2131099673;
 			
-			// aapt resource value: 0x7f060030
-			public const int textView5 = 2131099696;
-			
-			// aapt resource value: 0x7f060032
-			public const int textView6 = 2131099698;
+			// aapt resource value: 0x7f060031
+			public const int textView5 = 2131099697;
 			
 			// aapt resource value: 0x7f060033
-			public const int textView7 = 2131099699;
+			public const int textView6 = 2131099699;
 			
-			// aapt resource value: 0x7f060035
-			public const int textView8 = 2131099701;
+			// aapt resource value: 0x7f060034
+			public const int textView7 = 2131099700;
 			
-			// aapt resource value: 0x7f06004c
-			public const int textViewCustom = 2131099724;
+			// aapt resource value: 0x7f060036
+			public const int textView8 = 2131099702;
 			
-			// aapt resource value: 0x7f060051
-			public const int textViewPreset = 2131099729;
+			// aapt resource value: 0x7f06004d
+			public const int textViewCustom = 2131099725;
 			
-			// aapt resource value: 0x7f060039
-			public const int toggleButton1 = 2131099705;
+			// aapt resource value: 0x7f060052
+			public const int textViewPreset = 2131099730;
+			
+			// aapt resource value: 0x7f06003a
+			public const int toggleButton1 = 2131099706;
 			
 			// aapt resource value: 0x7f060020
 			public const int undo = 2131099680;
@@ -351,13 +354,16 @@ namespace StyleLights
 			public const int MainSettingsScreen = 2130903044;
 			
 			// aapt resource value: 0x7f030005
-			public const int PatternActivateScreen = 2130903045;
+			public const int NavigationBar = 2130903045;
 			
 			// aapt resource value: 0x7f030006
-			public const int PatternSelectionScreenCustom = 2130903046;
+			public const int PatternActivateScreen = 2130903046;
 			
 			// aapt resource value: 0x7f030007
-			public const int PatternSelectionScreenPresets = 2130903047;
+			public const int PatternSelectionScreenCustom = 2130903047;
+			
+			// aapt resource value: 0x7f030008
+			public const int PatternSelectionScreenPresets = 2130903048;
 			
 			static Layout()
 			{

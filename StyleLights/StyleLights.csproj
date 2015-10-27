@@ -80,6 +80,7 @@
     </AndroidResource>
     <AndroidResource Include="Resources\layout\CustomizeLighting.axml" />
     <AndroidResource Include="Resources\layout\CustomizeColor.axml" />
+    <AndroidResource Include="Resources\layout\NavigationBar.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\Strings.xml" />
