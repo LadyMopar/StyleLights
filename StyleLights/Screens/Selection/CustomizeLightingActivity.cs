@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,8 +12,8 @@ using Android.Widget;
 
 namespace StyleLights
 {
-	[Activity (Label = "CustomizeColorActivity")]			
-	public class CustomizeColorActivity : Activity
+	[Activity (Label = "CustomizeLightingActivity")]
+	public class CustomizeLightingActivity : Activity
 	{
 		protected override void OnCreate (Bundle bundle)
 		{

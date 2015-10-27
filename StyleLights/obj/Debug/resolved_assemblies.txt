@@ -1,6 +1,6 @@
-D:\Documents\GitHub\StyleLights\StyleLights\obj\Debug\assemblies\StyleLights.dll
-D:\Documents\GitHub\StyleLights\StyleLights\obj\Debug\assemblies\Mono.Android.dll
-D:\Documents\GitHub\StyleLights\StyleLights\obj\Debug\assemblies\mscorlib.dll
-D:\Documents\GitHub\StyleLights\StyleLights\obj\Debug\assemblies\System.Core.dll
-D:\Documents\GitHub\StyleLights\StyleLights\obj\Debug\assemblies\System.dll
-D:\Documents\GitHub\StyleLights\StyleLights\obj\Debug\assemblies\System.Xml.dll
+C:\CSSE 371\StyleLights\StyleLights\obj\Debug\assemblies\StyleLights.dll
+C:\CSSE 371\StyleLights\StyleLights\obj\Debug\assemblies\Mono.Android.dll
+C:\CSSE 371\StyleLights\StyleLights\obj\Debug\assemblies\mscorlib.dll
+C:\CSSE 371\StyleLights\StyleLights\obj\Debug\assemblies\System.Core.dll
+C:\CSSE 371\StyleLights\StyleLights\obj\Debug\assemblies\System.dll
+C:\CSSE 371\StyleLights\StyleLights\obj\Debug\assemblies\System.Xml.dll
