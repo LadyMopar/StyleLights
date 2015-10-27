@@ -48,12 +48,13 @@
   <ItemGroup>
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="MainSelectionScreenActivity.cs">
+    <Compile Include="Screens\Selection\MainSelectionScreenActivity.cs">
       <LogicalName>mSelection</LogicalName>
     </Compile>
-    <Compile Include="PatternActivateScreenActivity.cs" />
-    <Compile Include="PatternSelectionScreenCustomActivity.cs" />
-    <Compile Include="PatternSelectionScreenPresetsActivity.cs" />
+    <Compile Include="Screens\Selection\PatternActivateScreenActivity.cs" />
+    <Compile Include="Screens\Selection\PatternSelectionScreenCustomActivity.cs" />
+    <Compile Include="Screens\Selection\PatternSelectionScreenPresetsActivity.cs" />
+    <Compile Include="Screens\Selection\CustomizationMainActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -77,9 +78,11 @@
     <AndroidResource Include="Resources\layout\PatternSelectionScreenPresets.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
+    <AndroidResource Include="Resources\layout\CustomizeLighting.axml" />
+    <AndroidResource Include="Resources\layout\CustomizeColor.axml" />
+    <AndroidResource Include="Resources\layout\NavigationBar.axml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\Main.axml" />
     <AndroidResource Include="Resources\values\Strings.xml" />
     <AndroidResource Include="Resources\drawable-hdpi\Icon.png" />
     <AndroidResource Include="Resources\drawable-mdpi\Icon.png" />
@@ -88,4 +91,8 @@
     <AndroidResource Include="Resources\drawable-xxxhdpi\Icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Screens\" />
+    <Folder Include="Screens\Selection\" />
+  </ItemGroup>
 </Project>

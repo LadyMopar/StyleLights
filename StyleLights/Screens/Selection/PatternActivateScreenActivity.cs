@@ -41,10 +41,22 @@ namespace StyleLights
 			nameStr.Text= patternName;
 			//Find our controls
 			var activateButton = FindViewById<Button>(Resource.Id.ActivateButton);
+			var selectionButton = FindViewById<Button> (Resource.Id.SelectionButton);
+			var customizationButton = FindViewById<Button> (Resource.Id.CustomizeButton);
 
 			//Wire up controls
 			activateButton.Click+= (sender, e) => {
 				Toast.MakeText(this, "Pattern: "+patternName+" has been sent to the device", ToastLength.Long).Show();
+			};
+			if (selectionButton != null) {
+				selectionButton.Click+= (sender, e) => {
+					StartActivity(typeof(MainActivity));
+				};
+			}
+			if (customizationButton!=null)
+				customizationButton.Click+= (sender, e) => {
+				var activity = new Intent(this, typeof(CustomizationMainActivity));
+				StartActivity(activity);
 			};
 		}
 

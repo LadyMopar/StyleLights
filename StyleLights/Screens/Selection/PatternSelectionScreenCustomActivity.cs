@@ -32,6 +32,20 @@ namespace StyleLights
 			layoutTest2.SetMinimumHeight (heightInDp * (1 / 10));
 			layoutTest3.SetMinimumWidth (widthInDp);
 			layoutTest3.SetMinimumHeight (heightInDp * (1 / 10));
+
+			var selectionButton = FindViewById<Button> (Resource.Id.SelectionButton);
+			var customizationButton = FindViewById<Button> (Resource.Id.CustomizeButton);
+
+			if (selectionButton != null) {
+				selectionButton.Click+= (sender, e) => {
+					StartActivity(typeof(MainActivity));
+				};
+			}
+			if (customizationButton!=null)
+				customizationButton.Click+= (sender, e) => {
+				var activity = new Intent(this, typeof(CustomizationMainActivity));
+				StartActivity(activity);
+			};
 		}
 
 		private int ConvertPixelsToDp(float pixels) {

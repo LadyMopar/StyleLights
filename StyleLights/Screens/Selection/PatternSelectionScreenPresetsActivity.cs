@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -36,20 +35,38 @@ namespace StyleLights
 			var button1=FindViewById<Button>(Resource.Id.button1);
 			var button2=FindViewById<Button>(Resource.Id.button2);
 			var button3=FindViewById<Button>(Resource.Id.button3);
+			var selectionButton = FindViewById<Button> (Resource.Id.SelectionButton);
+			var customizationButton = FindViewById<Button> (Resource.Id.CustomizeButton);
+
 			//wire up our controls
 			button1.Click+= (sender, e) => {
 				var activity= new Intent(this, typeof(PatternActivateScreenActivity));
 				activity.PutExtra("Pattern Name","Preset Pattern 1");
+				//activity.AddFlags(ActivityFlags.ClearTop|ActivityFlags.SingleTop);
 				StartActivity(activity);
 			};
 			button2.Click+= (sender, e) => {
 				var activity= new Intent(this, typeof(PatternActivateScreenActivity));
 				activity.PutExtra("Pattern Name","Preset Pattern 2");
+				//activity.AddFlags(ActivityFlags.ClearTop|ActivityFlags.SingleTop);
 				StartActivity(activity);
 			};
 			button3.Click+= (sender, e) => {
 				var activity= new Intent(this, typeof(PatternActivateScreenActivity));
 				activity.PutExtra("Pattern Name","Preset Pattern 3");
+				//activity.AddFlags(ActivityFlags.ClearTop|ActivityFlags.SingleTop);
+				StartActivity(activity);
+			};
+			if (selectionButton != null) {
+				selectionButton.Click+= (sender, e) => {
+					var activity = new Intent(this, typeof(MainActivity));
+					activity.AddFlags(ActivityFlags.ClearTop|ActivityFlags.SingleTop);
+					StartActivity(activity);
+				};
+			}
+			if (customizationButton!=null)
+				customizationButton.Click+= (sender, e) => {
+				var activity = new Intent(this, typeof(CustomizationMainActivity));
 				StartActivity(activity);
 			};
 		}
