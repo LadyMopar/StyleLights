@@ -48,12 +48,12 @@
   <ItemGroup>
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Screens\MainSelectionScreenActivity.cs">
+    <Compile Include="Screens\Selection\MainSelectionScreenActivity.cs">
       <LogicalName>mSelection</LogicalName>
     </Compile>
-    <Compile Include="Screens\PatternActivateScreenActivity.cs" />
-    <Compile Include="Screens\PatternSelectionScreenCustomActivity.cs" />
-    <Compile Include="Screens\PatternSelectionScreenPresetsActivity.cs" />
+    <Compile Include="Screens\Selection\PatternActivateScreenActivity.cs" />
+    <Compile Include="Screens\Selection\PatternSelectionScreenCustomActivity.cs" />
+    <Compile Include="Screens\Selection\PatternSelectionScreenPresetsActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -90,5 +90,6 @@
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
     <Folder Include="Screens\" />
+    <Folder Include="Screens\Selection\" />
   </ItemGroup>
 </Project>
