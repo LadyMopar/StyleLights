@@ -77,9 +77,10 @@
     <AndroidResource Include="Resources\layout\PatternSelectionScreenPresets.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
+    <AndroidResource Include="Resources\layout\CustomizeLighting.axml" />
+    <AndroidResource Include="Resources\layout\CustomizeColor.axml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\Main.axml" />
     <AndroidResource Include="Resources\values\Strings.xml" />
     <AndroidResource Include="Resources\drawable-hdpi\Icon.png" />
     <AndroidResource Include="Resources\drawable-mdpi\Icon.png" />

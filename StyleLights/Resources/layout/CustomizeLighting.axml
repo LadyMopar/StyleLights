@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:orientation="vertical"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/linearLayout1">
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:layout_width="match_parent"
+        p1:layout_height="55.0dp"
+        p1:id="@+id/linearLayout20">
+        <Button
+            p1:text="Select"
+            p1:layout_width="180.7dp"
+            p1:layout_height="match_parent"
+            p1:id="@+id/select" />
+        <Button
+            p1:text="Customize"
+            p1:layout_width="180.7dp"
+            p1:layout_height="match_parent"
+            p1:id="@+id/customize" />
+        <Button
+            p1:text="Share"
+            p1:layout_width="180.7dp"
+            p1:layout_height="match_parent"
+            p1:id="@+id/share" />
+        <Button
+            p1:text="Settings"
+            p1:layout_width="180.7dp"
+            p1:layout_height="match_parent"
+            p1:id="@+id/settings" />
+    </LinearLayout>
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:layout_width="match_parent"
+        p1:layout_height="504.3dp"
+        p1:id="@+id/linearLayout6">
+        <LinearLayout
+            p1:orientation="vertical"
+            p1:layout_width="364.5dp"
+            p1:layout_height="match_parent"
+            p1:id="@+id/linearLayout7">
+            <LinearLayout
+                p1:orientation="horizontal"
+                p1:layout_width="match_parent"
+                p1:layout_height="51.6dp"
+                p1:id="@+id/linearLayout15">
+                <Button
+                    p1:text="Undo"
+                    p1:layout_width="89.5dp"
+                    p1:layout_height="35.2dp"
+                    p1:id="@+id/undo"
+                    p1:layout_marginTop="6.5dp"
+                    p1:layout_marginLeft="35.9dp" />
+                <Button
+                    p1:text="Redo"
+                    p1:layout_width="89.5dp"
+                    p1:layout_height="35.2dp"
+                    p1:id="@+id/redo"
+                    p1:layout_marginTop="6.5dp"
+                    p1:layout_marginLeft="35.9dp" />
+            </LinearLayout>
+            <LinearLayout
+                p1:orientation="vertical"
+                p1:layout_width="match_parent"
+                p1:layout_height="452.5dp"
+                p1:id="@+id/linearLayout17">
+                <TextView
+                    p1:text="Select Region"
+                    p1:textAppearance="?android:attr/textAppearanceMedium"
+                    p1:layout_width="match_parent"
+                    p1:layout_height="37.8dp"
+                    p1:id="@+id/region" />
+                <RadioButton
+                    p1:text="Chest"
+                    p1:layout_width="match_parent"
+                    p1:layout_height="51.8dp"
+                    p1:id="@+id/chest"
+                    p1:layout_marginTop="42.4dp" />
+                <RadioButton
+                    p1:text="Arms"
+                    p1:layout_width="match_parent"
+                    p1:layout_height="51.8dp"
+                    p1:id="@+id/arms"
+                    p1:layout_marginTop="16.3dp" />
+                <RadioButton
+                    p1:text="Back"
+                    p1:layout_width="match_parent"
+                    p1:layout_height="51.8dp"
+                    p1:id="@+id/back"
+                    p1:layout_marginTop="16.3dp" />
+                <RadioButton
+                    p1:text="Single LED"
+                    p1:layout_width="match_parent"
+                    p1:layout_height="51.8dp"
+                    p1:id="@+id/single"
+                    p1:layout_marginTop="16.3dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="vertical"
+            p1:layout_width="358.0dp"
+            p1:layout_height="match_parent"
+            p1:id="@+id/linearLayout18">
+            <LinearLayout
+                p1:orientation="vertical"
+                p1:layout_width="match_parent"
+                p1:layout_height="74.3dp"
+                p1:id="@+id/linearLayout19">
+                <Button
+                    p1:text="Reset"
+                    p1:layout_width="77.9dp"
+                    p1:layout_height="34.8dp"
+                    p1:id="@+id/reset"
+                    p1:layout_marginTop="3.3dp"
+                    p1:layout_marginLeft="228.1dp" />
+                <ImageButton
+                    p1:src="@android:drawable/ic_menu_gallery"
+                    p1:layout_width="41.8dp"
+                    p1:layout_height="42.3dp"
+                    p1:id="@+id/rotate"
+                    p1:layout_marginLeft="264.0dp"
+                    p1:dragSourceParentType="LinearLayout"
+                    p1:dragLinearLayoutOrientation="vertical" />
+            </LinearLayout>
+            <ImageView
+                p1:src="@drawable/icon"
+                p1:layout_width="match_parent"
+                p1:layout_height="439.5dp"
+                p1:id="@+id/shirt"
+                p1:adjustViewBounds="false" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:layout_width="match_parent"
+        p1:layout_height="77.8dp"
+        p1:id="@+id/linearLayout16">
+        <Button
+            p1:text="Share Pattern"
+            p1:layout_width="164.7dp"
+            p1:layout_height="52.0dp"
+            p1:id="@+id/button1"
+            p1:layout_marginTop="13.0dp"
+            p1:layout_marginLeft="50.6dp" />
+        <Button
+            p1:text="Save Pattern"
+            p1:layout_width="164.5dp"
+            p1:layout_height="52.0dp"
+            p1:id="@+id/button2"
+            p1:layout_marginTop="13.1dp"
+            p1:layout_marginLeft="251.1dp" />
+    </LinearLayout>
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:layout_width="match_parent"
+        p1:layout_height="67.8dp"
+        p1:id="@+id/linearLayout21">
+        <Button
+            p1:text="Lighting"
+            p1:layout_width="360.0dp"
+            p1:layout_height="match_parent"
+            p1:id="@+id/button6" />
+        <Button
+            p1:text="Color"
+            p1:layout_width="360.0dp"
+            p1:layout_height="match_parent"
+            p1:id="@+id/button6" />
+    </LinearLayout>
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:layout_width="match_parent"
+        p1:layout_height="495.0dp"
+        p1:id="@+id/linearLayout12">
+        <LinearLayout
+            p1:orientation="vertical"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="371.0dp"
+            p1:layout_height="match_parent"
+            p1:id="@+id/linearLayout13">
+            <TextView
+                p1:text="Brightness"
+                p1:textAppearance="?android:attr/textAppearanceLarge"
+                p1:layout_width="match_parent"
+                p1:layout_height="35.8dp"
+                p1:id="@+id/brightness"
+                p1:layout_marginTop="68.4dp"
+                p1:layout_marginBottom="13.0dp" />
+            <SeekBar
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/brightnessSlider"
+                p1:layout_marginBottom="45.6dp" />
+            <TextView
+                p1:text="Effect"
+                p1:textAppearance="?android:attr/textAppearanceLarge"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/effect"
+                p1:layout_marginBottom="42.4dp"
+                p1:layout_marginTop="45.6dp" />
+            <Spinner
+                p1:layout_width="match_parent"
+                p1:layout_height="54.9dp"
+                p1:id="@+id/effectSpinner"
+                p1:entries="Item 1" />
+        </LinearLayout>
+        <LinearLayout
+            p1:orientation="vertical"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="351.5dp"
+            p1:layout_height="match_parent"
+            p1:id="@+id/linearLayout14">
+            <TextView
+                p1:text="Duration"
+                p1:textAppearance="?android:attr/textAppearanceLarge"
+                p1:layout_width="match_parent"
+                p1:layout_height="35.8dp"
+                p1:id="@+id/duration"
+                p1:layout_marginTop="45.7dp" />
+            <Spinner
+                p1:layout_width="match_parent"
+                p1:layout_height="48.3dp"
+                p1:id="@+id/spinner2"
+                p1:entries="Item 1"
+                p1:layout_marginBottom="39.1dp" />
+            <TextView
+                p1:text="ON"
+                p1:textAppearance="?android:attr/textAppearanceLarge"
+                p1:layout_width="match_parent"
+                p1:layout_height="26.2dp"
+                p1:id="@+id/textView5" />
+            <EditText
+                p1:inputType="number"
+                p1:layout_width="match_parent"
+                p1:layout_height="43.0dp"
+                p1:id="@+id/editText3" />
+            <TextView
+                p1:text="(seconds)"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="84.3dp"
+                p1:layout_height="24.8dp"
+                p1:id="@+id/textView6"
+                p1:layout_marginTop="9.8dp"
+                p1:layout_marginBottom="48.9dp"
+                p1:layout_marginLeft="251.0dp" />
+            <TextView
+                p1:text="OFF"
+                p1:textAppearance="?android:attr/textAppearanceLarge"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/textView7" />
+            <EditText
+                p1:inputType="number"
+                p1:layout_width="match_parent"
+                p1:layout_height="46.3dp"
+                p1:id="@+id/editText4" />
+            <TextView
+                p1:text="(seconds)"
+                p1:textAppearance="?android:attr/textAppearanceMedium"
+                p1:layout_width="87.5dp"
+                p1:layout_height="24.7dp"
+                p1:id="@+id/textView8"
+                p1:layout_marginTop="16.3dp"
+                p1:layout_marginLeft="251.0dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
