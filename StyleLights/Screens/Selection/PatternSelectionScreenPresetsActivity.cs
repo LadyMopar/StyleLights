@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -37,6 +36,8 @@ namespace StyleLights
 			var button2=FindViewById<Button>(Resource.Id.button2);
 			var button3=FindViewById<Button>(Resource.Id.button3);
 			var selectionButton = FindViewById<Button> (Resource.Id.SelectionButton);
+			var customizationButton = FindViewById<Button> (Resource.Id.CustomizeButton);
+
 			//wire up our controls
 			button1.Click+= (sender, e) => {
 				var activity= new Intent(this, typeof(PatternActivateScreenActivity));
@@ -63,6 +64,11 @@ namespace StyleLights
 					StartActivity(activity);
 				};
 			}
+			if (customizationButton!=null)
+				customizationButton.Click+= (sender, e) => {
+				var activity = new Intent(this, typeof(CustomizationMainActivity));
+				StartActivity(activity);
+			};
 		}
 
 		private int ConvertPixelsToDp(float pixels) {

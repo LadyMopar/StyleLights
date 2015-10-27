@@ -42,6 +42,7 @@ namespace StyleLights
 			customButton = FindViewById<Button> (Resource.Id.CustomButton);
 			newButton = FindViewById<Button> (Resource.Id.CreateNewButton);
 			var selectionButton = FindViewById<Button> (Resource.Id.SelectionButton);
+			var customizationButton = FindViewById<Button> (Resource.Id.CustomizeButton);
 
 			//Wire up our controls
 			if (presetButton != null) {
@@ -61,6 +62,11 @@ namespace StyleLights
 					StartActivity(typeof(MainActivity));
 				};
 			}
+			if (customizationButton!=null)
+				customizationButton.Click+= (sender, e) => {
+				var activity = new Intent(this, typeof(CustomizationMainActivity));
+				StartActivity(activity);
+			};
 
 		}
 		private int ConvertPixelsToDp(float pixels) {

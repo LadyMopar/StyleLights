@@ -121,9 +121,7 @@
                     p1:layout_width="41.8dp"
                     p1:layout_height="42.3dp"
                     p1:id="@+id/rotate"
-                    p1:layout_marginLeft="264.0dp"
-                    p1:dragSourceParentType="LinearLayout"
-                    p1:dragLinearLayoutOrientation="vertical" />
+                    p1:layout_marginLeft="264.0dp" />
             </LinearLayout>
             <ImageView
                 p1:src="@drawable/icon"
@@ -209,8 +207,7 @@
             <Spinner
                 p1:layout_width="match_parent"
                 p1:layout_height="54.9dp"
-                p1:id="@+id/effectSpinner"
-                p1:entries="Item 1" />
+                p1:id="@+id/effectSpinner" />
         </LinearLayout>
         <LinearLayout
             p1:orientation="vertical"
@@ -230,7 +227,6 @@
                 p1:layout_width="match_parent"
                 p1:layout_height="48.3dp"
                 p1:id="@+id/spinner2"
-                p1:entries="Item 1"
                 p1:layout_marginBottom="39.1dp" />
             <TextView
                 p1:text="ON"

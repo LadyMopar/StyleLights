@@ -54,6 +54,7 @@
     <Compile Include="Screens\Selection\PatternActivateScreenActivity.cs" />
     <Compile Include="Screens\Selection\PatternSelectionScreenCustomActivity.cs" />
     <Compile Include="Screens\Selection\PatternSelectionScreenPresetsActivity.cs" />
+    <Compile Include="Screens\Selection\CustomizationMainActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
