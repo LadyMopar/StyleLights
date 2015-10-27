@@ -1,7 +1,5 @@
 /bin/
-StyleLights/bin/Debug/com.companyname.stylelights.apk
 *.apk
-StyleLights/bin/Debug/StyleLights.dll
+*.dll
 *.mdb
-StyleLights/bin/Debug/StyleLights.dll
 *.pdb
