@@ -70,9 +70,10 @@
                     p1:layout_width="match_parent"
                     p1:layout_height="37.8dp"
                     p1:id="@+id/region" />
-                <RadioButton
-                    p1:text="Chest"
+                <RadioGroup
+                    p1:id="@+id/regiongroup"
                     p1:layout_width="match_parent"
+<<<<<<< HEAD
                     p1:layout_height="51.8dp"
                     p1:id="@+id/chest" />
                 <RadioButton
@@ -90,6 +91,34 @@
                     p1:layout_width="match_parent"
                     p1:layout_height="51.8dp"
                     p1:id="@+id/single" />
+=======
+                    p1:layout_height="wrap_content">
+                    <RadioButton
+                        p1:text="Chest"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="51.8dp"
+                        p1:id="@+id/chest"
+                        p1:layout_marginTop="42.4dp" />
+                    <RadioButton
+                        p1:text="Arms"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="51.8dp"
+                        p1:id="@+id/arms"
+                        p1:layout_marginTop="16.3dp" />
+                    <RadioButton
+                        p1:text="Back"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="51.8dp"
+                        p1:id="@+id/back"
+                        p1:layout_marginTop="16.3dp" />
+                    <RadioButton
+                        p1:text="Single LED"
+                        p1:layout_width="match_parent"
+                        p1:layout_height="51.8dp"
+                        p1:id="@+id/single"
+                        p1:layout_marginTop="16.3dp" />
+                </RadioGroup>
+>>>>>>> 7bccade40e570e163161526c106814f01cf7c96d
             </LinearLayout>
         </LinearLayout>
         <LinearLayout
@@ -113,7 +142,11 @@
                     p1:layout_width="41.8dp"
                     p1:layout_height="42.3dp"
                     p1:id="@+id/rotate"
+<<<<<<< HEAD
                     p1:layout_gravity="right" />
+=======
+                    p1:layout_marginLeft="264.0dp" />
+>>>>>>> 7bccade40e570e163161526c106814f01cf7c96d
             </LinearLayout>
             <ImageView
                 p1:src="@drawable/icon"
@@ -208,7 +241,12 @@
             <Spinner
                 p1:layout_width="match_parent"
                 p1:layout_height="48.3dp"
+<<<<<<< HEAD
                 p1:id="@+id/spinner2" />
+=======
+                p1:id="@+id/spinner2"
+                p1:layout_marginBottom="39.1dp" />
+>>>>>>> 7bccade40e570e163161526c106814f01cf7c96d
             <TextView
                 p1:text="ON"
                 p1:textAppearance="?android:attr/textAppearanceLarge"
