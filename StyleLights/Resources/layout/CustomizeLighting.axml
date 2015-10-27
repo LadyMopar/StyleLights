@@ -51,16 +51,13 @@
                     p1:text="Undo"
                     p1:layout_width="89.5dp"
                     p1:layout_height="35.2dp"
-                    p1:id="@+id/undo"
-                    p1:layout_marginTop="6.5dp"
-                    p1:layout_marginLeft="35.9dp" />
+                    p1:id="@+id/undo" />
                 <Button
                     p1:text="Redo"
                     p1:layout_width="89.5dp"
                     p1:layout_height="35.2dp"
                     p1:id="@+id/redo"
-                    p1:layout_marginTop="6.5dp"
-                    p1:layout_marginLeft="35.9dp" />
+                    p1:layout_gravity="right" />
             </LinearLayout>
             <LinearLayout
                 p1:orientation="vertical"
@@ -77,26 +74,22 @@
                     p1:text="Chest"
                     p1:layout_width="match_parent"
                     p1:layout_height="51.8dp"
-                    p1:id="@+id/chest"
-                    p1:layout_marginTop="42.4dp" />
+                    p1:id="@+id/chest" />
                 <RadioButton
                     p1:text="Arms"
                     p1:layout_width="match_parent"
                     p1:layout_height="51.8dp"
-                    p1:id="@+id/arms"
-                    p1:layout_marginTop="16.3dp" />
+                    p1:id="@+id/arms" />
                 <RadioButton
                     p1:text="Back"
                     p1:layout_width="match_parent"
                     p1:layout_height="51.8dp"
-                    p1:id="@+id/back"
-                    p1:layout_marginTop="16.3dp" />
+                    p1:id="@+id/back" />
                 <RadioButton
                     p1:text="Single LED"
                     p1:layout_width="match_parent"
                     p1:layout_height="51.8dp"
-                    p1:id="@+id/single"
-                    p1:layout_marginTop="16.3dp" />
+                    p1:id="@+id/single" />
             </LinearLayout>
         </LinearLayout>
         <LinearLayout
@@ -114,16 +107,13 @@
                     p1:layout_width="77.9dp"
                     p1:layout_height="34.8dp"
                     p1:id="@+id/reset"
-                    p1:layout_marginTop="3.3dp"
-                    p1:layout_marginLeft="228.1dp" />
+                    p1:layout_gravity="right" />
                 <ImageButton
                     p1:src="@android:drawable/ic_menu_gallery"
                     p1:layout_width="41.8dp"
                     p1:layout_height="42.3dp"
                     p1:id="@+id/rotate"
-                    p1:layout_marginLeft="264.0dp"
-                    p1:dragSourceParentType="LinearLayout"
-                    p1:dragLinearLayoutOrientation="vertical" />
+                    p1:layout_gravity="right" />
             </LinearLayout>
             <ImageView
                 p1:src="@drawable/icon"
@@ -144,16 +134,12 @@
             p1:text="Share Pattern"
             p1:layout_width="164.7dp"
             p1:layout_height="52.0dp"
-            p1:id="@+id/button1"
-            p1:layout_marginTop="13.0dp"
-            p1:layout_marginLeft="50.6dp" />
+            p1:id="@+id/button1" />
         <Button
             p1:text="Save Pattern"
             p1:layout_width="164.5dp"
             p1:layout_height="52.0dp"
-            p1:id="@+id/button2"
-            p1:layout_marginTop="13.1dp"
-            p1:layout_marginLeft="251.1dp" />
+            p1:id="@+id/button2" />
     </LinearLayout>
     <LinearLayout
         p1:orientation="horizontal"
@@ -190,27 +176,21 @@
                 p1:textAppearance="?android:attr/textAppearanceLarge"
                 p1:layout_width="match_parent"
                 p1:layout_height="35.8dp"
-                p1:id="@+id/brightness"
-                p1:layout_marginTop="68.4dp"
-                p1:layout_marginBottom="13.0dp" />
+                p1:id="@+id/brightness" />
             <SeekBar
                 p1:layout_width="match_parent"
                 p1:layout_height="wrap_content"
-                p1:id="@+id/brightnessSlider"
-                p1:layout_marginBottom="45.6dp" />
+                p1:id="@+id/brightnessSlider" />
             <TextView
                 p1:text="Effect"
                 p1:textAppearance="?android:attr/textAppearanceLarge"
                 p1:layout_width="match_parent"
                 p1:layout_height="wrap_content"
-                p1:id="@+id/effect"
-                p1:layout_marginBottom="42.4dp"
-                p1:layout_marginTop="45.6dp" />
+                p1:id="@+id/effect" />
             <Spinner
                 p1:layout_width="match_parent"
                 p1:layout_height="54.9dp"
-                p1:id="@+id/effectSpinner"
-                p1:entries="Item 1" />
+                p1:id="@+id/effectSpinner" />
         </LinearLayout>
         <LinearLayout
             p1:orientation="vertical"
@@ -224,14 +204,11 @@
                 p1:textAppearance="?android:attr/textAppearanceLarge"
                 p1:layout_width="match_parent"
                 p1:layout_height="35.8dp"
-                p1:id="@+id/duration"
-                p1:layout_marginTop="45.7dp" />
+                p1:id="@+id/duration" />
             <Spinner
                 p1:layout_width="match_parent"
                 p1:layout_height="48.3dp"
-                p1:id="@+id/spinner2"
-                p1:entries="Item 1"
-                p1:layout_marginBottom="39.1dp" />
+                p1:id="@+id/spinner2" />
             <TextView
                 p1:text="ON"
                 p1:textAppearance="?android:attr/textAppearanceLarge"
@@ -248,10 +225,7 @@
                 p1:textAppearance="?android:attr/textAppearanceMedium"
                 p1:layout_width="84.3dp"
                 p1:layout_height="24.8dp"
-                p1:id="@+id/textView6"
-                p1:layout_marginTop="9.8dp"
-                p1:layout_marginBottom="48.9dp"
-                p1:layout_marginLeft="251.0dp" />
+                p1:id="@+id/textView6" />
             <TextView
                 p1:text="OFF"
                 p1:textAppearance="?android:attr/textAppearanceLarge"
@@ -268,9 +242,7 @@
                 p1:textAppearance="?android:attr/textAppearanceMedium"
                 p1:layout_width="87.5dp"
                 p1:layout_height="24.7dp"
-                p1:id="@+id/textView8"
-                p1:layout_marginTop="16.3dp"
-                p1:layout_marginLeft="251.0dp" />
+                p1:id="@+id/textView8" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
