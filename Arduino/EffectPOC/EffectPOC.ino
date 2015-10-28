@@ -2,33 +2,51 @@
 #include <Adafruit_NeoPixel.h>
 
 #define PIN 8
+#define NUM_LEDS 1 // Two 16-LED NeoPixel rings
+#define FPS      30 // Animation frames/second (ish)
 
-Adafruit_NeoPixel strip = Adafruit_NeoPixel(1, PIN, NEO_GRB + NEO_KHZ800);
+Adafruit_NeoPixel strip = Adafruit_NeoPixel(NUM_LEDS, PIN, NEO_GRB + NEO_KHZ800);
 
 void setup() {
+
   strip.begin();
   strip.show(); // Initialize all pixels to 'off'
-  strip.setPixelColor(0, strip.Color(0, 255, 0));
-  strip.show();
 }
 
+uint32_t prevTime = 0L;       // For animation timing
+uint32_t frameCounter = 0L;   // For animation triggering
+
+uint32_t brightnessOn = 4; //seconds
+uint32_t brightnessOff = 2; //seconds
+uint32_t nextBrightness = brightnessOn*FPS; //initialized for startOn
+
+
 void loop() {
+  uint32_t t;
+  for (;;) {
+    t = micros();                            // Current time
+    if ((t - prevTime) >= (1000000L / FPS)) { // 1/30 sec elapsed?
+      prevTime = t;
+      frameCounter++;
+      break;                                 // Yes, go update LEDs
+    }                                        // otherwise...
+  }
   // Displaying the different wavetype effects, square, needle, triangle, sine,
-
-  squareWave(255, 10, 5000, 2500, 1);   //
-
+  squareWave(255, 0, 5000, 2500, 1);   //offstate set to zero
 }
 
 void squareWave(uint8_t onState, uint8_t offState, uint16_t onDuration, uint16_t offDuration, bool startOn) {
-  if (strip.getBrightness()==onState) {
-    strip.setBrightness(offState);
-    strip.show();
-    delay(offDuration);
-  } else {
-    strip.setBrightness(onState);
-    strip.setPixelColor(0, strip.Color(0, 255, 0));
-    strip.show();
-    delay(onDuration);
+  if (frameCounter == nextBrightness) {
+    if (strip.getBrightness() == onState) {
+      strip.setBrightness(offState);
+      strip.show();
+      nextBrightness+=(brightnessOff*FPS);
+    } else {
+      strip.setBrightness(onState);
+      strip.setPixelColor(0, strip.Color(0, 255, 0));
+      strip.show();
+      nextBrightness+=(brightnessOn*FPS);
+    }
   }
 }
 
