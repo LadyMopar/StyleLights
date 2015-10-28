@@ -54,8 +54,8 @@
     <Compile Include="Screens\Selection\PatternActivateScreenActivity.cs" />
     <Compile Include="Screens\Selection\PatternSelectionScreenCustomActivity.cs" />
     <Compile Include="Screens\Selection\PatternSelectionScreenPresetsActivity.cs" />
-    <Compile Include="Screens\Selection\CustomizeLightingActivity.cs" />
-    <Compile Include="Screens\Selection\CustomizeColorActivity.cs" />
+    <Compile Include="Screens\Customization\CustomizeColorActivity.cs" />
+    <Compile Include="Screens\Customization\CustomizeLightingActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -95,5 +95,6 @@
   <ItemGroup>
     <Folder Include="Screens\" />
     <Folder Include="Screens\Selection\" />
+    <Folder Include="Screens\Customization\" />
   </ItemGroup>
 </Project>
