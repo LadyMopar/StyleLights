@@ -81,7 +81,7 @@ public final class R {
         public static final int regiongroup=0x7f070023;
         public static final int reset=0x7f070028;
         public static final int rotate=0x7f070029;
-        public static final int select=0x7f07001c;
+        public static final int selectionButton=0x7f07001c;
         public static final int settings=0x7f07001f;
         public static final int share=0x7f07001e;
         public static final int shirt=0x7f07002a;

@@ -15,7 +15,7 @@
             p1:text="Select"
             p1:layout_width="180.7dp"
             p1:layout_height="match_parent"
-            p1:id="@+id/select" />
+            p1:id="@+id/selectionButton" />
         <Button
             p1:text="Customize"
             p1:layout_width="180.7dp"

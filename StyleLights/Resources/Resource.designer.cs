@@ -269,7 +269,7 @@ namespace StyleLights
 			public const int rotate = 2131165225;
 			
 			// aapt resource value: 0x7f07001c
-			public const int select = 2131165212;
+			public const int selectionButton = 2131165212;
 			
 			// aapt resource value: 0x7f07001f
 			public const int settings = 2131165215;

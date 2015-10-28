@@ -24,8 +24,14 @@ namespace StyleLights
 			var widthInDp = ConvertPixelsToDp (metrics.WidthPixels);
 			var heightInDp = ConvertPixelsToDp (metrics.HeightPixels);
 
+			var selectionButton = FindViewById<Button> (Resource.Id.SelectionButton);
 
-
+			if (selectionButton != null) {
+				selectionButton.Click += (sender, e) => {
+					var activity = new Intent(this, typeof(MainActivity));
+					StartActivity(activity);
+				};
+			}
 
 		}
 
