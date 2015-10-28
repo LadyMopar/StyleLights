@@ -1,6 +1,11 @@
 ﻿<Properties StartupItem="StyleLights.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Xamarin_Android_API_21" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Screens\Selection\CustomizeColorActivity.cs">
+    <Files>
+      <File FileName="Screens\Selection\CustomizeColorActivity.cs" Line="22" Column="55" />
+      <File FileName="Screens\Selection\CustomizeLightingActivity.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

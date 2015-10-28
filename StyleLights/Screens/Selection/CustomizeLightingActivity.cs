@@ -19,7 +19,19 @@ namespace StyleLights
 		{
 			base.OnCreate (bundle);
 			SetContentView (Resource.Layout.CustomizeLighting);
-			// Create your application here
+
+			var metrics = Resources.DisplayMetrics;
+			var widthInDp = ConvertPixelsToDp (metrics.WidthPixels);
+			var heightInDp = ConvertPixelsToDp (metrics.HeightPixels);
+
+
+
+
+		}
+
+		private int ConvertPixelsToDp(float pixels) {
+			var dp = (int) ((pixels) / Resources.DisplayMetrics.Density);
+			return dp;
 		}
 	}
 }
