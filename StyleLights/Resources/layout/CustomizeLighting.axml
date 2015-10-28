@@ -47,36 +47,19 @@
             p1:layout_height="212.4dp"
             p1:id="@+id/linearLayout7">
             <LinearLayout
-                p1:orientation="horizontal"
-                p1:layout_width="match_parent"
-                p1:layout_height="51.6dp"
-                p1:id="@+id/linearLayout15">
-                <Button
-                    p1:text="Undo"
-                    p1:layout_width="68.3dp"
-                    p1:layout_height="35.2dp"
-                    p1:id="@+id/undo"
-                    p1:layout_gravity="top"
-                    p1:textSize="15dp" />
-                <Button
-                    p1:text="Redo"
-                    p1:layout_width="68.3dp"
-                    p1:layout_height="35.2dp"
-                    p1:id="@+id/redo"
-                    p1:textSize="15dp" />
-            </LinearLayout>
-            <LinearLayout
                 p1:orientation="vertical"
                 p1:layout_width="match_parent"
-                p1:layout_height="158.6dp"
+                p1:layout_height="173.3dp"
                 p1:id="@+id/linearLayout17">
                 <TextView
                     p1:text="Select Region"
                     p1:textAppearance="?android:attr/textAppearanceMedium"
                     p1:layout_width="match_parent"
-                    p1:layout_height="37.8dp"
+                    p1:layout_height="49.5dp"
                     p1:id="@+id/region"
-                    p1:textSize="15dp" />
+                    p1:textSize="15dp"
+                    p1:layout_gravity="center_vertical"
+                    p1:gravity="center_vertical" />
                 <RadioGroup
                     p1:id="@+id/regiongroup"
                     p1:layout_width="159.6dp"
@@ -127,8 +110,8 @@
                     p1:textSize="15dp" />
                 <ImageButton
                     p1:src="@android:drawable/ic_menu_gallery"
-                    p1:layout_width="41.8dp"
-                    p1:layout_height="42.3dp"
+                    p1:layout_width="25.6dp"
+                    p1:layout_height="26.1dp"
                     p1:id="@+id/rotate"
                     p1:layout_gravity="end" />
             </LinearLayout>
@@ -230,13 +213,9 @@
                 p1:text="Duration"
                 p1:textAppearance="?android:attr/textAppearanceLarge"
                 p1:layout_width="match_parent"
-                p1:layout_height="31.1dp"
+                p1:layout_height="42.5dp"
                 p1:id="@+id/duration"
-                p1:textSize="15dp" />
-            <Spinner
-                p1:layout_width="match_parent"
-                p1:layout_height="44.7dp"
-                p1:id="@+id/spinner2" />
+                p1:textSize="18dp" />
             <TextView
                 p1:text="ON"
                 p1:textAppearance="?android:attr/textAppearanceLarge"
