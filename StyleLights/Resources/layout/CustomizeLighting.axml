@@ -82,12 +82,6 @@
                         p1:layout_height="30.7dp"
                         p1:id="@+id/back"
                         p1:textSize="12dp" />
-                    <RadioButton
-                        p1:text="Single LED"
-                        p1:layout_width="match_parent"
-                        p1:layout_height="30.9dp"
-                        p1:id="@+id/single"
-                        p1:textSize="12dp" />
                 </RadioGroup>
             </LinearLayout>
         </LinearLayout>
@@ -99,7 +93,7 @@
             <LinearLayout
                 p1:orientation="vertical"
                 p1:layout_width="198.9dp"
-                p1:layout_height="74.3dp"
+                p1:layout_height="59.7dp"
                 p1:id="@+id/linearLayout19">
                 <Button
                     p1:text="Reset"
@@ -116,11 +110,12 @@
                     p1:layout_gravity="end" />
             </LinearLayout>
             <ImageView
-                p1:src="@drawable/icon"
-                p1:layout_width="198.9dp"
-                p1:layout_height="119.5dp"
+                p1:src="@drawable/hoodie_front"
+                p1:layout_width="151.3dp"
+                p1:layout_height="155.3dp"
                 p1:id="@+id/shirt"
-                p1:adjustViewBounds="false" />
+                p1:adjustViewBounds="false"
+                p1:layout_gravity="right" />
         </LinearLayout>
     </LinearLayout>
     <LinearLayout

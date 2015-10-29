@@ -1,13 +1,31 @@
 ﻿<Properties StartupItem="StyleLights.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Xamarin_Android_API_21" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Screens\Selection\CustomizeColorActivity.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Screens\Selection\CustomizeColorActivity.cs" Line="22" Column="55" />
-      <File FileName="Screens\Selection\CustomizeLightingActivity.cs" Line="1" Column="1" />
+      <File FileName="Screens\Customization\CustomizeLightingActivity.cs" Line="42" Column="54" />
+      <File FileName="Screens\Selection\MainSelectionScreenActivity.cs" Line="33" Column="4" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="StyleLights" expanded="True">
+            <Node name="StyleLights" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="drawable-hdpi" expanded="True" selected="True" />
+                <Node name="layout" expanded="True" />
+              </Node>
+              <Node name="Screens" expanded="True">
+                <Node name="Customization" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.StyleLights AndroidDesignerPreferredDevice="Nexus 6" />
 </Properties>

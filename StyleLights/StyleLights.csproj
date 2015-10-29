@@ -82,6 +82,8 @@
     <AndroidResource Include="Resources\layout\CustomizeLighting.axml" />
     <AndroidResource Include="Resources\layout\CustomizeColor.axml" />
     <AndroidResource Include="Resources\layout\NavigationBar.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\hoodie_back.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\hoodie_front.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\Strings.xml" />
