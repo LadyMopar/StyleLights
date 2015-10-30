@@ -31,7 +31,7 @@
             p1:textSize="15dp" />
         <Button
             p1:text="Settings"
-            p1:layout_width="88.4dp"
+            p1:layout_width="86.9dp"
             p1:layout_height="match_parent"
             p1:id="@+id/settings"
             p1:textSize="15dp" />
