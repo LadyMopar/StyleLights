@@ -58,13 +58,14 @@ namespace StyleLights
 				};
 			}
 			if (selectionButton != null) {
-				selectionButton.Click+= (sender, e) => {
-					StartActivity(typeof(MainActivity));
-				};
+//				selectionButton.Click+= (sender, e) => {
+//					StartActivity(typeof(MainActivity));
+//				};
+				//Do nothing because you're already there
 			}
 			if (customizationButton!=null)
 				customizationButton.Click+= (sender, e) => {
-				var activity = new Intent(this, typeof(CustomizationMainActivity));
+				var activity = new Intent(this, typeof(CustomizeLightingActivity));
 				StartActivity(activity);
 			};
 

@@ -28,3 +28,4 @@ StyleLights/obj/Debug/android/bin/classes/md56a4b26279f3076cbd7c96ed8f8981184/Pa
 StyleLights/obj/Debug/android/bin/classes/mono/android/app/Application$NotifyTimeZoneChanges.class
 *.class
 StyleLights/obj/Debug/android/bin/mono.android.jar
+StyleLights/StyleLightsCore/obj/Debug/res/drawable-hdpi/icon.png

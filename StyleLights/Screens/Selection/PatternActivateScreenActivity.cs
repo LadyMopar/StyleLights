@@ -55,7 +55,7 @@ namespace StyleLights
 			}
 			if (customizationButton!=null)
 				customizationButton.Click+= (sender, e) => {
-				var activity = new Intent(this, typeof(CustomizationMainActivity));
+				var activity = new Intent(this, typeof(CustomizeColorActivity));
 				StartActivity(activity);
 			};
 		}

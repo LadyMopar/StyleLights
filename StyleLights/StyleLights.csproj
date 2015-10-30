@@ -54,12 +54,8 @@
     <Compile Include="Screens\Selection\PatternActivateScreenActivity.cs" />
     <Compile Include="Screens\Selection\PatternSelectionScreenCustomActivity.cs" />
     <Compile Include="Screens\Selection\PatternSelectionScreenPresetsActivity.cs" />
-<<<<<<< HEAD
-    <Compile Include="Screens\Selection\CustomizeColorActivity.cs" />
-    <Compile Include="Screens\Selection\CustomizeLightingActivity.cs" />
-=======
-    <Compile Include="Screens\Selection\CustomizationMainActivity.cs" />
->>>>>>> 7bccade40e570e163161526c106814f01cf7c96d
+    <Compile Include="Screens\Customization\CustomizeColorActivity.cs" />
+    <Compile Include="Screens\Customization\CustomizeLightingActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -86,6 +82,16 @@
     <AndroidResource Include="Resources\layout\CustomizeLighting.axml" />
     <AndroidResource Include="Resources\layout\CustomizeColor.axml" />
     <AndroidResource Include="Resources\layout\NavigationBar.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\hoodie_back.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\hoodie_front.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\hoodie_back.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\hoodie_front.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\hoodie_back.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\hoodie_front.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\hoodie_back.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\hoodie_front.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\hoodie_back.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\hoodie_front.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\Strings.xml" />
@@ -99,5 +105,6 @@
   <ItemGroup>
     <Folder Include="Screens\" />
     <Folder Include="Screens\Selection\" />
+    <Folder Include="Screens\Customization\" />
   </ItemGroup>
 </Project>

@@ -6,6 +6,8 @@
     <activity android:label="PatternActivateScreenActivity" android:name="md56a4b26279f3076cbd7c96ed8f8981184.PatternActivateScreenActivity" />
     <activity android:label="PatternSelectionScreenCustomActivity" android:name="md56a4b26279f3076cbd7c96ed8f8981184.PatternSelectionScreenCustomActivity" />
     <activity android:label="PatternSelectionScreenPresetsActivity" android:name="md56a4b26279f3076cbd7c96ed8f8981184.PatternSelectionScreenPresetsActivity" />
+    <activity android:label="CustomizeColorActivity" android:name="md56a4b26279f3076cbd7c96ed8f8981184.CustomizeColorActivity" />
+    <activity android:label="CustomizeLightingActivity" android:name="md56a4b26279f3076cbd7c96ed8f8981184.CustomizeLightingActivity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.companyname.stylelights.mono.MonoRuntimeProvider.__mono_init__" />
     <receiver android:name="mono.android.Seppuku">
       <intent-filter>
