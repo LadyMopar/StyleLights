@@ -84,6 +84,14 @@
     <AndroidResource Include="Resources\layout\NavigationBar.axml" />
     <AndroidResource Include="Resources\drawable-hdpi\hoodie_back.png" />
     <AndroidResource Include="Resources\drawable-hdpi\hoodie_front.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\hoodie_back.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\hoodie_front.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\hoodie_back.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\hoodie_front.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\hoodie_back.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\hoodie_front.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\hoodie_back.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\hoodie_front.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\Strings.xml" />

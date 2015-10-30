@@ -1,0 +1,16 @@
+C:\CSSE 371\StyleLights\StyleLights\StyleLightsCore\bin\Debug\StyleLightsCore.dll
+C:\CSSE 371\StyleLights\StyleLights\StyleLightsCore\bin\Debug\StyleLightsCore.pdb
+C:\CSSE 371\StyleLights\StyleLights\StyleLightsCore\bin\Debug\com.StyleLights.apk
+C:\CSSE 371\StyleLights\StyleLights\StyleLightsCore\bin\Debug\com.StyleLights-Signed.apk
+C:\CSSE 371\StyleLights\StyleLights\StyleLightsCore\obj\Debug\StyleLightsCore.dll
+C:\CSSE 371\StyleLights\StyleLights\StyleLightsCore\obj\Debug\StyleLightsCore.pdb
+C:\CSSE 371\StyleLights\StyleLights\StyleLightsCore\obj\Debug\android\bin\com.StyleLights.apk
+C:\CSSE 371\StyleLights\StyleLights\StyleLightsCore\obj\Debug\res\layout\main.xml
+C:\CSSE 371\StyleLights\StyleLights\StyleLightsCore\obj\Debug\res\values\strings.xml
+C:\CSSE 371\StyleLights\StyleLights\StyleLightsCore\obj\Debug\res\drawable-hdpi\icon.png
+C:\CSSE 371\StyleLights\StyleLights\StyleLightsCore\obj\Debug\res\drawable-mdpi\icon.png
+C:\CSSE 371\StyleLights\StyleLights\StyleLightsCore\obj\Debug\res\drawable-xhdpi\icon.png
+C:\CSSE 371\StyleLights\StyleLights\StyleLightsCore\obj\Debug\res\drawable-xxhdpi\icon.png
+C:\CSSE 371\StyleLights\StyleLights\StyleLightsCore\obj\Debug\res\drawable-xxxhdpi\icon.png
+C:\CSSE 371\StyleLights\StyleLights\StyleLightsCore\obj\Debug\R.cs.flag
+C:\CSSE 371\StyleLights\StyleLights\StyleLightsCore\obj\Debug\uploadflags.txt

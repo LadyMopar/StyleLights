@@ -121,6 +121,16 @@ C:\CSSE 371\StyleLights\StyleLights\obj\Debug\res\layout\patternselectionscreenp
 C:\CSSE 371\StyleLights\StyleLights\obj\Debug\res\layout\customizelighting.xml
 C:\CSSE 371\StyleLights\StyleLights\obj\Debug\res\layout\customizecolor.xml
 C:\CSSE 371\StyleLights\StyleLights\obj\Debug\res\layout\navigationbar.xml
+C:\CSSE 371\StyleLights\StyleLights\obj\Debug\res\drawable-hdpi\hoodie_back.png
+C:\CSSE 371\StyleLights\StyleLights\obj\Debug\res\drawable-hdpi\hoodie_front.png
+C:\CSSE 371\StyleLights\StyleLights\obj\Debug\res\drawable-mdpi\hoodie_back.png
+C:\CSSE 371\StyleLights\StyleLights\obj\Debug\res\drawable-mdpi\hoodie_front.png
+C:\CSSE 371\StyleLights\StyleLights\obj\Debug\res\drawable-xhdpi\hoodie_back.png
+C:\CSSE 371\StyleLights\StyleLights\obj\Debug\res\drawable-xhdpi\hoodie_front.png
+C:\CSSE 371\StyleLights\StyleLights\obj\Debug\res\drawable-xxhdpi\hoodie_back.png
+C:\CSSE 371\StyleLights\StyleLights\obj\Debug\res\drawable-xxhdpi\hoodie_front.png
+C:\CSSE 371\StyleLights\StyleLights\obj\Debug\res\drawable-xxxhdpi\hoodie_back.png
+C:\CSSE 371\StyleLights\StyleLights\obj\Debug\res\drawable-xxxhdpi\hoodie_front.png
 C:\CSSE 371\StyleLights\StyleLights\obj\Debug\res\values\strings.xml
 C:\CSSE 371\StyleLights\StyleLights\obj\Debug\res\drawable-hdpi\icon.png
 C:\CSSE 371\StyleLights\StyleLights\obj\Debug\res\drawable-mdpi\icon.png
