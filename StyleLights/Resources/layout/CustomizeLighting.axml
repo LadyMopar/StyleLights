@@ -135,7 +135,7 @@
             p1:text="Save"
             p1:layout_width="74.1dp"
             p1:layout_height="39.1dp"
-            p1:id="@+id/button2"
+            p1:id="@+id/saveButton"
             p1:layout_gravity="right"
             p1:layout_marginLeft="225.7dp"
             p1:textSize="15dp" />
@@ -157,7 +157,7 @@
             p1:text="Color"
             p1:layout_width="189.2dp"
             p1:layout_height="41.8dp"
-            p1:id="@+id/button6"
+            p1:id="@+id/colorButton"
             p1:textSize="15dp" />
     </LinearLayout>
     <LinearLayout

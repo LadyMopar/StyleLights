@@ -15,7 +15,7 @@
             p1:text="Select"
             p1:layout_width="95dp"
             p1:layout_height="match_parent"
-            p1:id="@+id/button5"
+            p1:id="@+id/selectionButton"
             p1:textSize="15dp" />
         <Button
             p1:text="Customize"
@@ -135,7 +135,7 @@
             p1:text="Save"
             p1:layout_width="74.1dp"
             p1:layout_height="39.1dp"
-            p1:id="@+id/button2"
+            p1:id="@+id/saveButton"
             p1:layout_gravity="right"
             p1:layout_marginLeft="225.7dp"
             p1:textSize="15dp" />
@@ -151,13 +151,13 @@
             p1:text="Lighting"
             p1:layout_width="189.7dp"
             p1:layout_height="41.5dp"
-            p1:id="@+id/button6"
+            p1:id="@+id/lightingButton"
             p1:textSize="15dp" />
         <Button
             p1:text="Color"
             p1:layout_width="189.2dp"
             p1:layout_height="41.8dp"
-            p1:id="@+id/button6"
+            p1:id="@+id/colorButton"
             p1:textSize="15dp" />
     </LinearLayout>
     <LinearLayout
@@ -246,7 +246,7 @@
                         p1:layout_height="wrap_content"
                         p1:id="@+id/textView5" />
                     <EditText
-                        p1:inputType="numberPassword"
+                        p1:inputType="number"
                         p1:layout_width="match_parent"
                         p1:layout_height="wrap_content"
                         p1:id="@+id/editText1" />
@@ -257,7 +257,7 @@
                         p1:layout_height="wrap_content"
                         p1:id="@+id/textView6" />
                     <EditText
-                        p1:inputType="numberPassword"
+                        p1:inputType="number"
                         p1:layout_width="match_parent"
                         p1:layout_height="wrap_content"
                         p1:id="@+id/editText2" />
@@ -268,7 +268,7 @@
                         p1:layout_height="wrap_content"
                         p1:id="@+id/textView7" />
                     <EditText
-                        p1:inputType="numberPassword"
+                        p1:inputType="number"
                         p1:layout_width="match_parent"
                         p1:layout_height="wrap_content"
                         p1:id="@+id/editText3" />
@@ -285,10 +285,10 @@
                         p1:layout_height="wrap_content"
                         p1:id="@+id/textView5" />
                     <EditText
-                        p1:inputType="numberPassword"
+                        p1:inputType="number"
                         p1:layout_width="match_parent"
                         p1:layout_height="wrap_content"
-                        p1:id="@+id/editText1" />
+                        p1:id="@+id/editText4" />
                     <TextView
                         p1:text="Saturation"
                         p1:textAppearance="?android:attr/textAppearanceSmall"
@@ -296,10 +296,10 @@
                         p1:layout_height="wrap_content"
                         p1:id="@+id/textView6" />
                     <EditText
-                        p1:inputType="numberPassword"
+                        p1:inputType="number"
                         p1:layout_width="match_parent"
                         p1:layout_height="wrap_content"
-                        p1:id="@+id/editText2" />
+                        p1:id="@+id/editText5" />
                     <TextView
                         p1:text="Value"
                         p1:textAppearance="?android:attr/textAppearanceSmall"
@@ -307,10 +307,10 @@
                         p1:layout_height="wrap_content"
                         p1:id="@+id/textView7" />
                     <EditText
-                        p1:inputType="numberPassword"
+                        p1:inputType="number"
                         p1:layout_width="match_parent"
                         p1:layout_height="wrap_content"
-                        p1:id="@+id/editText3" />
+                        p1:id="@+id/editText6" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>

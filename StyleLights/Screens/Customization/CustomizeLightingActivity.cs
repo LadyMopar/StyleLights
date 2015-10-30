@@ -42,6 +42,8 @@ namespace StyleLights
 			topButtons.SetMinimumHeight (heightInDp * (1/3) );
 
 			var selectionButton = FindViewById<Button> (Resource.Id.selectionButton);
+			var colorButton = FindViewById<Button> (Resource.Id.colorButton);
+			var saveButton = FindViewById<Button> (Resource.Id.saveButton);
 
 			if (selectionButton != null) {
 				selectionButton.Click += (sender, e) => {
@@ -49,6 +51,17 @@ namespace StyleLights
 					StartActivity(activity);
 				};
 			}
+
+			if (colorButton != null) {
+				colorButton.Click += (sender, e) => {
+					var activity = new Intent(this, typeof(CustomizeColorActivity));
+					StartActivity(activity);
+				};
+			}
+
+			saveButton.Click+= (sender, e) => {
+				Toast.MakeText(this, "Pattern has been saved", ToastLength.Long).Show();
+			};
 
 		}
 
