@@ -32,7 +32,13 @@ namespace StyleLights
 		{
 			
 			// aapt resource value: 0x7f050000
-			public const int mock_device_data_array = 2131034112;
+			public const int color_array = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int lighting_array = 2131034113;
+			
+			// aapt resource value: 0x7f050002
+			public const int mock_device_data_array = 2131034114;
 			
 			static Array()
 			{
@@ -133,11 +139,14 @@ namespace StyleLights
 			// aapt resource value: 0x7f07000b
 			public const int back = 2131165195;
 			
+			// aapt resource value: 0x7f07002f
+			public const int brightness = 2131165231;
+			
 			// aapt resource value: 0x7f070030
-			public const int brightness = 2131165232;
+			public const int brightnessSlider = 2131165232;
 			
 			// aapt resource value: 0x7f070031
-			public const int brightnessSlider = 2131165233;
+			public const int brightnessVal = 2131165233;
 			
 			// aapt resource value: 0x7f070012
 			public const int button1 = 2131165202;
@@ -163,29 +172,32 @@ namespace StyleLights
 			// aapt resource value: 0x7f070016
 			public const int colorButton = 2131165206;
 			
-			// aapt resource value: 0x7f07002d
-			public const int customize = 2131165229;
+			// aapt resource value: 0x7f07001a
+			public const int colorSpinner = 2131165210;
+			
+			// aapt resource value: 0x7f07002c
+			public const int customize = 2131165228;
 			
 			// aapt resource value: 0x7f070034
 			public const int duration = 2131165236;
 			
-			// aapt resource value: 0x7f070025
-			public const int editText1 = 2131165221;
+			// aapt resource value: 0x7f070024
+			public const int editText1 = 2131165220;
 			
-			// aapt resource value: 0x7f070027
-			public const int editText2 = 2131165223;
+			// aapt resource value: 0x7f070026
+			public const int editText2 = 2131165222;
+			
+			// aapt resource value: 0x7f070028
+			public const int editText3 = 2131165224;
 			
 			// aapt resource value: 0x7f070029
-			public const int editText3 = 2131165225;
+			public const int editText4 = 2131165225;
 			
 			// aapt resource value: 0x7f07002a
-			public const int editText4 = 2131165226;
+			public const int editText5 = 2131165226;
 			
 			// aapt resource value: 0x7f07002b
-			public const int editText5 = 2131165227;
-			
-			// aapt resource value: 0x7f07002c
-			public const int editText6 = 2131165228;
+			public const int editText6 = 2131165227;
 			
 			// aapt resource value: 0x7f070032
 			public const int effect = 2131165234;
@@ -235,11 +247,11 @@ namespace StyleLights
 			// aapt resource value: 0x7f07001b
 			public const int linearLayout22 = 2131165211;
 			
-			// aapt resource value: 0x7f070022
-			public const int linearLayout23 = 2131165218;
+			// aapt resource value: 0x7f070021
+			public const int linearLayout23 = 2131165217;
 			
-			// aapt resource value: 0x7f070023
-			public const int linearLayout25 = 2131165219;
+			// aapt resource value: 0x7f070022
+			public const int linearLayout25 = 2131165218;
 			
 			// aapt resource value: 0x7f07003b
 			public const int linearLayout3 = 2131165243;
@@ -292,20 +304,14 @@ namespace StyleLights
 			// aapt resource value: 0x7f070002
 			public const int selectionButton = 2131165186;
 			
-			// aapt resource value: 0x7f07002f
-			public const int settings = 2131165231;
-			
 			// aapt resource value: 0x7f07002e
-			public const int share = 2131165230;
+			public const int settings = 2131165230;
+			
+			// aapt resource value: 0x7f07002d
+			public const int share = 2131165229;
 			
 			// aapt resource value: 0x7f070010
 			public const int shirt = 2131165200;
-			
-			// aapt resource value: 0x7f07001a
-			public const int spinner1 = 2131165210;
-			
-			// aapt resource value: 0x7f070021
-			public const int spinner2 = 2131165217;
 			
 			// aapt resource value: 0x7f07004f
 			public const int tableRow1 = 2131165263;
@@ -322,14 +328,14 @@ namespace StyleLights
 			// aapt resource value: 0x7f07001d
 			public const int textView4 = 2131165213;
 			
-			// aapt resource value: 0x7f070024
-			public const int textView5 = 2131165220;
+			// aapt resource value: 0x7f070023
+			public const int textView5 = 2131165219;
 			
-			// aapt resource value: 0x7f070026
-			public const int textView6 = 2131165222;
+			// aapt resource value: 0x7f070025
+			public const int textView6 = 2131165221;
 			
-			// aapt resource value: 0x7f070028
-			public const int textView7 = 2131165224;
+			// aapt resource value: 0x7f070027
+			public const int textView7 = 2131165223;
 			
 			// aapt resource value: 0x7f070035
 			public const int textView8 = 2131165237;
@@ -396,11 +402,17 @@ namespace StyleLights
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int app_name = 2130968577;
+			// aapt resource value: 0x7f040003
+			public const int app_name = 2130968579;
 			
 			// aapt resource value: 0x7f040000
-			public const int hello = 2130968576;
+			public const int colorEffectSpinner = 2130968576;
+			
+			// aapt resource value: 0x7f040002
+			public const int hello = 2130968578;
+			
+			// aapt resource value: 0x7f040001
+			public const int lightingPatternSpinner = 2130968577;
 			
 			static String()
 			{

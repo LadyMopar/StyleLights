@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+ <string name="colorEffectSpinner">Choose a pattern</string>
+    <string-array name="color_array">
+        <item>Sine Wave</item>
+        <item>Square Wave</item>
+        <item>Saw Wave</item>
+        <item>Peak Wave</item>
+        <item>Reverse Peak Wave</item>
+        <item>Heartbeat</item>
+        <item>Some Other Wave</item>
+        <item>A Sick Wave</item>
+    </string-array>
+</resources>

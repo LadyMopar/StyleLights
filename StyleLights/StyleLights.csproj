@@ -56,6 +56,7 @@
     <Compile Include="Screens\Selection\PatternSelectionScreenPresetsActivity.cs" />
     <Compile Include="Screens\Customization\CustomizeColorActivity.cs" />
     <Compile Include="Screens\Customization\CustomizeLightingActivity.cs" />
+    <Compile Include="Screens\Bluetooth\BluetoothConnector.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -92,6 +93,8 @@
     <AndroidResource Include="Resources\drawable-xxhdpi\hoodie_front.png" />
     <AndroidResource Include="Resources\drawable-xxxhdpi\hoodie_back.png" />
     <AndroidResource Include="Resources\drawable-xxxhdpi\hoodie_front.png" />
+    <AndroidResource Include="Resources\values\LightingEffectArray.xml" />
+    <AndroidResource Include="Resources\values\colorEffectArray.xml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\Strings.xml" />
@@ -106,5 +109,6 @@
     <Folder Include="Screens\" />
     <Folder Include="Screens\Selection\" />
     <Folder Include="Screens\Customization\" />
+    <Folder Include="Screens\Bluetooth\" />
   </ItemGroup>
 </Project>

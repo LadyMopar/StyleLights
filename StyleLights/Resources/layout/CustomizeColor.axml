@@ -182,7 +182,8 @@
             <Spinner
                 p1:layout_width="match_parent"
                 p1:layout_height="59.3dp"
-                p1:id="@+id/spinner1" />
+                p1:id="@+id/colorSpinner"
+                p1:prompt="@string/colorEffectSpinner" />
             <LinearLayout
                 p1:orientation="horizontal"
                 p1:layout_width="match_parent"
@@ -225,10 +226,6 @@
             p1:layout_width="182.8dp"
             p1:layout_height="207.9dp"
             p1:id="@+id/linearLayout14">
-            <Spinner
-                p1:layout_width="match_parent"
-                p1:layout_height="37.1dp"
-                p1:id="@+id/spinner2" />
             <LinearLayout
                 p1:orientation="horizontal"
                 p1:layout_width="match_parent"

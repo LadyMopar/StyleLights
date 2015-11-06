@@ -30,6 +30,10 @@ namespace StyleLights
 			LinearLayout tabsBottom = FindViewById<LinearLayout> (Resource.Id.linearLayout21);
 			LinearLayout bottomButtons = FindViewById<LinearLayout> (Resource.Id.linearLayout12);
 
+			Spinner effectSpinner = FindViewById<Spinner> (Resource.Id.effectSpinner);
+			SeekBar slider = FindViewById<SeekBar> (Resource.Id.brightnessSlider);
+			TextView brightnessVal = FindViewById<TextView> (Resource.Id.brightnessVal);
+
 			topButtons.SetMinimumWidth (widthInDp);
 			topButtons.SetMinimumHeight (heightInDp * (1/9) );
 			topSections.SetMinimumWidth (widthInDp);
@@ -44,6 +48,19 @@ namespace StyleLights
 			var selectionButton = FindViewById<Button> (Resource.Id.selectionButton);
 			var colorButton = FindViewById<Button> (Resource.Id.colorButton);
 			var saveButton = FindViewById<Button> (Resource.Id.saveButton);
+
+			slider.ProgressChanged += (object sender, SeekBar.ProgressChangedEventArgs e) => {
+				if (e.FromUser) {
+					brightnessVal.Text = string.Format("Value is: {0}" , e.Progress);
+				}
+			};
+
+			effectSpinner.ItemSelected += new EventHandler<AdapterView.ItemSelectedEventArgs> (effectSpinner_ItemSelected);
+			var adapter = ArrayAdapter.CreateFromResource (
+				this, Resource.Array.lighting_array, Android.Resource.Layout.SimpleSpinnerItem);
+
+			adapter.SetDropDownViewResource (Android.Resource.Layout.SimpleSpinnerDropDownItem);
+			effectSpinner.Adapter = adapter;
 
 			if (selectionButton != null) {
 				selectionButton.Click += (sender, e) => {
@@ -69,6 +86,15 @@ namespace StyleLights
 			var dp = (int) ((pixels) / Resources.DisplayMetrics.Density);
 			return dp;
 		}
+
+		private void effectSpinner_ItemSelected (object sender, AdapterView.ItemSelectedEventArgs e)
+		{
+			Spinner spinner = (Spinner)sender;
+
+			string toast = string.Format ("Selected: {0}", spinner.GetItemAtPosition (e.Position));
+			Toast.MakeText (this, toast, ToastLength.Long).Show ();
+		}
+
 	}
 }
 

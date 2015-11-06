@@ -28,6 +28,15 @@ namespace StyleLights
 			var selectionButton = FindViewById<Button> (Resource.Id.selectionButton);
 			var lightingButton = FindViewById<Button> (Resource.Id.lightingButton);
 			var saveButton = FindViewById<Button> (Resource.Id.saveButton);
+			Spinner colorSpinner = FindViewById<Spinner> (Resource.Id.colorSpinner);
+
+			colorSpinner.ItemSelected += new EventHandler<AdapterView.ItemSelectedEventArgs> (colorSpinner_ItemSelected);
+			var adapter = ArrayAdapter.CreateFromResource (
+				this, Resource.Array.color_array, Android.Resource.Layout.SimpleSpinnerItem);
+
+			adapter.SetDropDownViewResource (Android.Resource.Layout.SimpleSpinnerDropDownItem);
+			colorSpinner.Adapter = adapter;
+
 
 			if (selectionButton != null) {
 				selectionButton.Click += (sender, e) => {
@@ -53,6 +62,14 @@ namespace StyleLights
 		private int ConvertPixelsToDp(float pixels) {
 			var dp = (int) ((pixels) / Resources.DisplayMetrics.Density);
 			return dp;
+		}
+
+		private void colorSpinner_ItemSelected (object sender, AdapterView.ItemSelectedEventArgs e)
+		{
+			Spinner spinner = (Spinner)sender;
+
+			string toast = string.Format ("Selected: {0}", spinner.GetItemAtPosition (e.Position));
+			Toast.MakeText (this, toast, ToastLength.Long).Show ();
 		}
 	}
 }

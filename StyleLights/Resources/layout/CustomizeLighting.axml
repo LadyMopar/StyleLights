@@ -185,6 +185,12 @@
                 p1:id="@+id/brightnessSlider"
                 p1:layout_gravity="center_vertical" />
             <TextView
+                p1:text="Small Text"
+                p1:textAppearance="?android:attr/textAppearanceSmall"
+                p1:layout_width="match_parent"
+                p1:layout_height="wrap_content"
+                p1:id="@+id/brightnessVal" />
+            <TextView
                 p1:text="Effect"
                 p1:textAppearance="?android:attr/textAppearanceLarge"
                 p1:layout_width="match_parent"
@@ -195,7 +201,8 @@
             <Spinner
                 p1:layout_width="match_parent"
                 p1:layout_height="55.0dp"
-                p1:id="@+id/effectSpinner" />
+                p1:id="@+id/effectSpinner"
+                p1:prompt="@string/lightingPatternSpinner" />
         </LinearLayout>
         <LinearLayout
             p1:orientation="vertical"
