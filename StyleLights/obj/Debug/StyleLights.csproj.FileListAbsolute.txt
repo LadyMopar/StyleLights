@@ -139,3 +139,5 @@ C:\CSSE 371\StyleLights\StyleLights\obj\Debug\res\drawable-xxhdpi\icon.png
 C:\CSSE 371\StyleLights\StyleLights\obj\Debug\res\drawable-xxxhdpi\icon.png
 C:\CSSE 371\StyleLights\StyleLights\obj\Debug\R.cs.flag
 C:\CSSE 371\StyleLights\StyleLights\obj\Debug\uploadflags.txt
+C:\CSSE 371\StyleLights\StyleLights\obj\Debug\res\values\lightingeffectarray.xml
+C:\CSSE 371\StyleLights\StyleLights\obj\Debug\res\values\coloreffectarray.xml

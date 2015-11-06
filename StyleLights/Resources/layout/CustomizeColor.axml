@@ -212,11 +212,13 @@
                 <Button
                     p1:layout_width="87.3dp"
                     p1:layout_height="33.3dp"
-                    p1:id="@+id/button6" />
+                    p1:id="@+id/color1"
+                    p1:textSize="10dp" />
                 <Button
                     p1:layout_width="87.8dp"
                     p1:layout_height="33.2dp"
-                    p1:id="@+id/button7" />
+                    p1:id="@+id/color2"
+                    p1:textSize="10dp" />
             </LinearLayout>
         </LinearLayout>
         <LinearLayout
@@ -246,7 +248,7 @@
                         p1:inputType="number"
                         p1:layout_width="match_parent"
                         p1:layout_height="wrap_content"
-                        p1:id="@+id/editText1" />
+                        p1:id="@+id/redText" />
                     <TextView
                         p1:text="Blue"
                         p1:textAppearance="?android:attr/textAppearanceSmall"
@@ -257,7 +259,7 @@
                         p1:inputType="number"
                         p1:layout_width="match_parent"
                         p1:layout_height="wrap_content"
-                        p1:id="@+id/editText2" />
+                        p1:id="@+id/blueText" />
                     <TextView
                         p1:text="Green"
                         p1:textAppearance="?android:attr/textAppearanceSmall"
@@ -268,7 +270,7 @@
                         p1:inputType="number"
                         p1:layout_width="match_parent"
                         p1:layout_height="wrap_content"
-                        p1:id="@+id/editText3" />
+                        p1:id="@+id/greenText" />
                 </LinearLayout>
                 <LinearLayout
                     p1:orientation="vertical"
@@ -285,7 +287,7 @@
                         p1:inputType="number"
                         p1:layout_width="match_parent"
                         p1:layout_height="wrap_content"
-                        p1:id="@+id/editText4" />
+                        p1:id="@+id/hueText" />
                     <TextView
                         p1:text="Saturation"
                         p1:textAppearance="?android:attr/textAppearanceSmall"
@@ -296,7 +298,7 @@
                         p1:inputType="number"
                         p1:layout_width="match_parent"
                         p1:layout_height="wrap_content"
-                        p1:id="@+id/editText5" />
+                        p1:id="@+id/satText" />
                     <TextView
                         p1:text="Value"
                         p1:textAppearance="?android:attr/textAppearanceSmall"
@@ -307,7 +309,7 @@
                         p1:inputType="number"
                         p1:layout_width="match_parent"
                         p1:layout_height="wrap_content"
-                        p1:id="@+id/editText6" />
+                        p1:id="@+id/valText" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
