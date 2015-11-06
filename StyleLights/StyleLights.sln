@@ -3,18 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StyleLights", "StyleLights.csproj", "{EA648B82-6999-4736-9670-AC37CBD98F1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StyleLightsCore", "StyleLightsCore\StyleLightsCore.csproj", "{3630CE7B-7DDE-4457-9680-288D536AAB88}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3630CE7B-7DDE-4457-9680-288D536AAB88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3630CE7B-7DDE-4457-9680-288D536AAB88}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3630CE7B-7DDE-4457-9680-288D536AAB88}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3630CE7B-7DDE-4457-9680-288D536AAB88}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EA648B82-6999-4736-9670-AC37CBD98F1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EA648B82-6999-4736-9670-AC37CBD98F1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA648B82-6999-4736-9670-AC37CBD98F1E}.Release|Any CPU.ActiveCfg = Release|Any CPU

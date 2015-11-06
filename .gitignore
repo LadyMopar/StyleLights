@@ -29,3 +29,5 @@ StyleLights/obj/Debug/android/bin/classes/mono/android/app/Application$NotifyTim
 *.class
 StyleLights/obj/Debug/android/bin/mono.android.jar
 StyleLights/StyleLightsCore/obj/Debug/res/drawable-hdpi/icon.png
+*.dll
+StyleLights/bin/Debug/StyleLights.dll.mdb

@@ -57,6 +57,7 @@
     <Compile Include="Screens\Customization\CustomizeColorActivity.cs" />
     <Compile Include="Screens\Customization\CustomizeLightingActivity.cs" />
     <Compile Include="Screens\Bluetooth\BluetoothConnector.cs" />
+    <Compile Include="Utils\FileBridge.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -110,5 +111,6 @@
     <Folder Include="Screens\Selection\" />
     <Folder Include="Screens\Customization\" />
     <Folder Include="Screens\Bluetooth\" />
+    <Folder Include="Utils\" />
   </ItemGroup>
 </Project>
