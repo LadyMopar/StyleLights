@@ -36,14 +36,26 @@ namespace StyleLights
 			Button selectionButton = FindViewById<Button> (Resource.Id.selectionButton);
 			Button colorButton = FindViewById<Button> (Resource.Id.colorButton);
 			Button saveButton = FindViewById<Button> (Resource.Id.saveButton);
+			Button reset = FindViewById<Button> (Resource.Id.reset);
 
 			//Other stuff
 			Spinner effectSpinner = FindViewById<Spinner> (Resource.Id.effectSpinner);
 			SeekBar slider = FindViewById<SeekBar> (Resource.Id.brightnessSlider);
 			TextView brightnessVal = FindViewById<TextView> (Resource.Id.brightnessVal);
+			EditText onDuration = FindViewById<EditText> (Resource.Id.onDuration);
+			EditText offDuration = FindViewById<EditText> (Resource.Id.offDuration);
 
-			brightnessVal.Text = "";
+			brightnessVal.Text = "Brightness at 0%";
 		
+			//Button stuff
+			reset.Click += (sender, e) => {
+				effectSpinner.SetSelection(0);
+				slider.Progress = 0;
+				onDuration.Text = "";
+				offDuration.Text = "";
+				brightnessVal.Text = "Brightness at 0%";
+			};
+
 			//Slider lambda expression
 			slider.ProgressChanged += (object sender, SeekBar.ProgressChangedEventArgs e) => {
 				if (e.FromUser) {

@@ -17,6 +17,10 @@ namespace StyleLights
 	[Activity (Label = "CustomizeColorActivity")]			
 	public class CustomizeColorActivity : Activity
 	{
+		string red = "0";
+		string green = "0";
+		string blue = "0";
+		string hex = "000000";
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
@@ -27,29 +31,59 @@ namespace StyleLights
 			var widthInDp = ConvertPixelsToDp (metrics.WidthPixels);
 			var heightInDp = ConvertPixelsToDp (metrics.HeightPixels);
 
+
+			//Color 1 = False, Color 2 = True
+
 			//Buttons
 			Button selectionButton = FindViewById<Button> (Resource.Id.selectionButton);
 			Button lightingButton = FindViewById<Button> (Resource.Id.lightingButton);
 			Button saveButton = FindViewById<Button> (Resource.Id.saveButton);
 			Button color1 = FindViewById<Button> (Resource.Id.color1);
+			Button color2 = FindViewById<Button> (Resource.Id.color2);
+			Button reset = FindViewById<Button> (Resource.Id.reset);
 
 			//EditText
 			EditText redText = FindViewById<EditText> (Resource.Id.redText);
 			EditText greenText = FindViewById<EditText> (Resource.Id.greenText);
 			EditText blueText = FindViewById<EditText> (Resource.Id.blueText);
-			EditText hueText = FindViewById<EditText> (Resource.Id.hueText);
-			EditText satText = FindViewById<EditText> (Resource.Id.satText);
-			EditText valText = FindViewById<EditText> (Resource.Id.valText);
+//			redText.SetFilters (new global::Android.Text.IInputFilter[]{ global::Android.Text.InputFilterLengthFilter (3)});
+//			greenText.SetFilters (new global::Android.Text.IInputFilter[]{ global::Android.Text.InputFilterLengthFilter (3)});
+//			blueText.SetFilters (new global::Android.Text.IInputFilter[]{ global::Android.Text.InputFilterLengthFilter (3)});
 
-			redText.Text = "0";
-			greenText.Text = "0";
-			blueText.Text = "0";
-			hueText.Text = "0";
-			satText.Text = "0";
-			valText.Text = "0";
+//			redText.Text = "0";
+//			greenText.Text = "0";
+//			blueText.Text = "0";
+//			hueText.Text = "0";
+//			satText.Text = "0";
+//			valText.Text = "0";
 
 			//Other Stuff
 			Spinner colorSpinner = FindViewById<Spinner> (Resource.Id.colorSpinner);
+
+			//Button Stuff
+			if (color1 != null) {
+				color1.Click += (sender, e) => {
+					color1.Text = hex;
+				};
+			}
+
+			if (color2 != null) {
+				color2.Click += (sender, e) => {
+					color2.Text = hex;
+				};
+			}
+
+			reset.Click += (sender, e) => {
+				color1.Text = "";
+				color2.Text = "";
+				redText.Text = "";
+				greenText.Text = "";
+				blueText.Text = "";
+				red = "0";
+				green = "0";
+				blue = "0";
+				colorSpinner.SetSelection(0);
+			};
 
 			//Spinner stuff
 			colorSpinner.ItemSelected += new EventHandler<AdapterView.ItemSelectedEventArgs> (colorSpinner_ItemSelected);
@@ -65,11 +99,16 @@ namespace StyleLights
 				e.Handled = false;
 
 				if(e.Event.Action == KeyEventActions.Down && e.KeyCode == Keycode.Enter) {
-					string hex = RGBtoHex(redText, blueText, greenText);
-					color1.Text = hex;
+					if (redText.Text != "") {
+						red = redText.Text;
+					}
+					hex = RGBtoHex((double)Int32.Parse(red), (double)Int32.Parse(green), (double)Int32.Parse(blue), redText, greenText, blueText);
+//					if (colorOneOrTwo) {
+//						color2.Text = hex;
+//					} else {
+//						color1.Text = hex;
+//					}
 					e.Handled = true;
-
-
 				}
 			};
 			
@@ -77,8 +116,15 @@ namespace StyleLights
 				e.Handled = false;
 				
 				if(e.Event.Action == KeyEventActions.Down && e.KeyCode == Keycode.Enter) {
-					string hex = RGBtoHex(redText, blueText, greenText);
-					color1.Text = hex;
+					if (greenText.Text != "") {
+						green = greenText.Text;
+					}
+					hex = RGBtoHex((double)Int32.Parse(red), (double)Int32.Parse(green), (double)Int32.Parse(blue), redText, greenText, blueText);
+//					if (colorOneOrTwo) {
+//						color2.Text = hex;
+//					} else {
+//						color1.Text = hex;
+//					}
 					e.Handled = true;
 				}
 			};
@@ -87,8 +133,15 @@ namespace StyleLights
 				e.Handled = false;
 
 				if(e.Event.Action == KeyEventActions.Down && e.KeyCode == Keycode.Enter) {
-					string hex = RGBtoHex(redText, blueText, greenText);
-					color1.Text = hex;
+					if (blueText.Text != "") {
+						blue = blueText.Text;
+					}
+					hex = RGBtoHex((double)Int32.Parse(red), (double)Int32.Parse(green), (double)Int32.Parse(blue), redText, greenText, blueText);
+//					if (colorOneOrTwo) {
+//						color2.Text = hex;
+//					} else {
+//						color1.Text = hex;
+//					}
 					e.Handled = true;
 
 				}
@@ -132,32 +185,30 @@ namespace StyleLights
 			Toast.MakeText (this, toast, ToastLength.Long).Show ();
 		}
 
-		private string RGBtoHex(EditText redText, EditText blueText, EditText greenText) {
-			Console.WriteLine ("Made it this far!");
-			int redInt = Int32.Parse(redText.Text);
-			int greenInt = Int32.Parse(greenText.Text);
-			int blueInt = Int32.Parse(blueText.Text);
+		private string RGBtoHex(double redInt, double greenInt, double blueInt, EditText red, EditText green, EditText blue) {
 
 			if (redInt < 0 || redInt >= 256) {
-				Console.WriteLine ("You probably won't see me!");
-				string toast = string.Format ("Could not parse {0} to an int. Try another value between 0 and 255.", redText.Text);
+				string toast = string.Format ("Could not parse {0} to an int. Try another value between 0 and 255.", redInt);
+				red.Text = "0";
 				Toast.MakeText (this, toast, ToastLength.Long).Show ();
 				redInt = 0;
 			}
 
 			if (greenInt < 0 || greenInt >= 256) {
-				string toast = string.Format ("Could not parse {0} to an int. Try another value between 0 and 255.", greenText.Text);
+				string toast = string.Format ("Could not parse {0} to an int. Try another value between 0 and 255.", greenInt);
+				green.Text = "0";
 				Toast.MakeText (this, toast, ToastLength.Long).Show ();
 				greenInt = 0;
 			}
 
 			if (blueInt < 0 || blueInt >= 256) {
-				string toast = string.Format ("Could not parse {0} to an int. Try another value between 0 and 255.", blueText.Text);
+				string toast = string.Format ("Could not parse {0} to an int. Try another value between 0 and 255.", blueInt);
+				blue.Text = "0";
 				Toast.MakeText (this, toast, ToastLength.Long).Show ();
 				blueInt = 0;
 			}
 
-			Color color = Color.FromArgb (redInt, greenInt, blueInt);
+			Color color = Color.FromArgb ((int)redInt, (int)greenInt, (int)blueInt);
 
 			string hex = color.R.ToString ("X2") + color.B.ToString ("X2") + color.G.ToString ("X2");
 

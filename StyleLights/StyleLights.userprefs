@@ -4,7 +4,7 @@
     <Files>
       <File FileName="Screens\Customization\CustomizeLightingActivity.cs" Line="4" Column="19" />
       <File FileName="Screens\Customization\CustomizeColorActivity.cs" Line="1" Column="1" />
-      <File FileName="Screens\Bluetooth\BluetoothConnector.cs" Line="3" Column="17" />
+      <File FileName="Screens\Bluetooth\BluetoothConnector.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

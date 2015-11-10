@@ -22,7 +22,7 @@
             p1:layout_width="95dp"
             p1:layout_height="match_parent"
             p1:id="@+id/button5"
-            p1:textSize="14dp" />
+            p1:textSize="12dp" />
         <Button
             p1:text="Share"
             p1:layout_width="95dp"
@@ -102,12 +102,6 @@
                     p1:id="@+id/reset"
                     p1:layout_gravity="end"
                     p1:textSize="15dp" />
-                <ImageButton
-                    p1:src="@android:drawable/ic_menu_gallery"
-                    p1:layout_width="25.6dp"
-                    p1:layout_height="22.7dp"
-                    p1:id="@+id/rotate"
-                    p1:layout_gravity="end" />
             </LinearLayout>
             <ImageView
                 p1:src="@drawable/hoodie_front"
@@ -163,7 +157,7 @@
     <LinearLayout
         p1:orientation="horizontal"
         p1:layout_width="374.7dp"
-        p1:layout_height="279.9dp"
+        p1:layout_height="207.8dp"
         p1:id="@+id/linearLayout12">
         <LinearLayout
             p1:orientation="vertical"
@@ -181,14 +175,17 @@
                 p1:textSize="18dp" />
             <Spinner
                 p1:layout_width="match_parent"
-                p1:layout_height="59.3dp"
+                p1:layout_height="34.9dp"
                 p1:id="@+id/colorSpinner"
-                p1:prompt="@string/colorEffectSpinner" />
+                p1:prompt="@string/colorEffectSpinner"
+                p1:background="#ff101010"
+                p1:layout_marginBottom="11.5dp" />
             <LinearLayout
                 p1:orientation="horizontal"
                 p1:layout_width="match_parent"
-                p1:layout_height="27.2dp"
-                p1:id="@+id/linearLayout22">
+                p1:layout_height="33.6dp"
+                p1:id="@+id/linearLayout22"
+                p1:layout_marginTop="13.1dp">
                 <TextView
                     p1:text="Color 1"
                     p1:textAppearance="?android:attr/textAppearanceMedium"
@@ -207,18 +204,18 @@
             <LinearLayout
                 p1:orientation="horizontal"
                 p1:layout_width="match_parent"
-                p1:layout_height="37.8dp"
+                p1:layout_height="64.3dp"
                 p1:id="@+id/linearLayout20">
                 <Button
                     p1:layout_width="87.3dp"
-                    p1:layout_height="33.3dp"
+                    p1:layout_height="50.1dp"
                     p1:id="@+id/color1"
-                    p1:textSize="10dp" />
+                    p1:textSize="15dp" />
                 <Button
                     p1:layout_width="87.8dp"
-                    p1:layout_height="33.2dp"
+                    p1:layout_height="49.4dp"
                     p1:id="@+id/color2"
-                    p1:textSize="10dp" />
+                    p1:textSize="15dp" />
             </LinearLayout>
         </LinearLayout>
         <LinearLayout
@@ -231,13 +228,14 @@
             <LinearLayout
                 p1:orientation="horizontal"
                 p1:layout_width="match_parent"
-                p1:layout_height="171.7dp"
+                p1:layout_height="196.1dp"
                 p1:id="@+id/linearLayout23">
                 <LinearLayout
                     p1:orientation="vertical"
-                    p1:layout_width="94.8dp"
-                    p1:layout_height="match_parent"
-                    p1:id="@+id/linearLayout25">
+                    p1:layout_width="109.8dp"
+                    p1:layout_height="176.3dp"
+                    p1:id="@+id/linearLayout25"
+                    p1:layout_marginLeft="57.4dp">
                     <TextView
                         p1:text="Red"
                         p1:textAppearance="?android:attr/textAppearanceSmall"
@@ -248,18 +246,22 @@
                         p1:inputType="number"
                         p1:layout_width="match_parent"
                         p1:layout_height="wrap_content"
-                        p1:id="@+id/redText" />
+                        p1:id="@+id/redText"
+                        p1:maxLength="3"
+                        p1:layout_marginTop="8.2dp" />
                     <TextView
                         p1:text="Blue"
                         p1:textAppearance="?android:attr/textAppearanceSmall"
-                        p1:layout_width="match_parent"
+                        p1:layout_width="88.7dp"
                         p1:layout_height="wrap_content"
                         p1:id="@+id/textView6" />
                     <EditText
                         p1:inputType="number"
                         p1:layout_width="match_parent"
                         p1:layout_height="wrap_content"
-                        p1:id="@+id/blueText" />
+                        p1:id="@+id/blueText"
+                        p1:maxLength="3"
+                        p1:layout_marginTop="8.2dp" />
                     <TextView
                         p1:text="Green"
                         p1:textAppearance="?android:attr/textAppearanceSmall"
@@ -270,46 +272,9 @@
                         p1:inputType="number"
                         p1:layout_width="match_parent"
                         p1:layout_height="wrap_content"
-                        p1:id="@+id/greenText" />
-                </LinearLayout>
-                <LinearLayout
-                    p1:orientation="vertical"
-                    p1:layout_width="94.8dp"
-                    p1:layout_height="match_parent"
-                    p1:id="@+id/linearLayout25">
-                    <TextView
-                        p1:text="Hue"
-                        p1:textAppearance="?android:attr/textAppearanceSmall"
-                        p1:layout_width="match_parent"
-                        p1:layout_height="wrap_content"
-                        p1:id="@+id/textView5" />
-                    <EditText
-                        p1:inputType="number"
-                        p1:layout_width="match_parent"
-                        p1:layout_height="wrap_content"
-                        p1:id="@+id/hueText" />
-                    <TextView
-                        p1:text="Saturation"
-                        p1:textAppearance="?android:attr/textAppearanceSmall"
-                        p1:layout_width="match_parent"
-                        p1:layout_height="wrap_content"
-                        p1:id="@+id/textView6" />
-                    <EditText
-                        p1:inputType="number"
-                        p1:layout_width="match_parent"
-                        p1:layout_height="wrap_content"
-                        p1:id="@+id/satText" />
-                    <TextView
-                        p1:text="Value"
-                        p1:textAppearance="?android:attr/textAppearanceSmall"
-                        p1:layout_width="match_parent"
-                        p1:layout_height="wrap_content"
-                        p1:id="@+id/textView7" />
-                    <EditText
-                        p1:inputType="number"
-                        p1:layout_width="match_parent"
-                        p1:layout_height="wrap_content"
-                        p1:id="@+id/valText" />
+                        p1:maxLength="3"
+                        p1:id="@+id/greenText"
+                        p1:layout_marginTop="8.2dp" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>

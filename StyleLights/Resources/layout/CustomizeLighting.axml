@@ -22,7 +22,7 @@
             p1:layout_width="95dp"
             p1:layout_height="match_parent"
             p1:id="@+id/customize"
-            p1:textSize="14dp" />
+            p1:textSize="12dp" />
         <Button
             p1:text="Share"
             p1:layout_width="95dp"
@@ -194,15 +194,17 @@
                 p1:text="Effect"
                 p1:textAppearance="?android:attr/textAppearanceLarge"
                 p1:layout_width="match_parent"
-                p1:layout_height="47.3dp"
+                p1:layout_height="27.8dp"
                 p1:id="@+id/effect"
                 p1:layout_gravity="fill_vertical"
-                p1:textSize="15dp" />
+                p1:textSize="14dp"
+                p1:layout_marginTop="19.7dp" />
             <Spinner
                 p1:layout_width="match_parent"
-                p1:layout_height="55.0dp"
+                p1:layout_height="33.7dp"
                 p1:id="@+id/effectSpinner"
-                p1:prompt="@string/lightingPatternSpinner" />
+                p1:prompt="@string/lightingPatternSpinner"
+                p1:background="#ff101010" />
         </LinearLayout>
         <LinearLayout
             p1:orientation="vertical"
@@ -229,7 +231,8 @@
                 p1:inputType="number"
                 p1:layout_width="match_parent"
                 p1:layout_height="36.2dp"
-                p1:id="@+id/editText3" />
+                p1:maxLength="3"
+                p1:id="@+id/onDuration" />
             <TextView
                 p1:text="(seconds)"
                 p1:textAppearance="?android:attr/textAppearanceMedium"
@@ -248,7 +251,8 @@
                 p1:inputType="number"
                 p1:layout_width="match_parent"
                 p1:layout_height="36.4dp"
-                p1:id="@+id/editText4" />
+                p1:maxLength="3"
+                p1:id="@+id/offDuration" />
             <TextView
                 p1:text="(seconds)"
                 p1:textAppearance="?android:attr/textAppearanceMedium"
